@@ -1,0 +1,25 @@
+--[[
+  Type:     ModuleScript
+  Method:   decompile
+  Name:     Domain_Shatter
+  Path:     game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Domain_Shatter
+  Service:  ReplicatedStorage
+  Success:  true
+  Executor: Potassium v2.4.5
+  Game:     Dungeon_Lootr_RELEASE (106484206883664)
+  Time:     Tue Sep  1 03:59:51 2026
+]]
+
+-- Decompiled with Potassium's decompiler.
+
+local ReplicatedStorage = game:GetService("ReplicatedStorage");
+local Lighting = game:GetService("Lighting");
+
+return require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer).markerEmit(script, {
+    models = { "Skill3", "HighlightEmit" },
+    modeRoot = {
+        attribute = "M1Mode",
+        default = "Sword"
+    },
+    externalContainers = { Lighting }
+});

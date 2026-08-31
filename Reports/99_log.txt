@@ -1,0 +1,1488 @@
+[03:59:03][INFO] =================================================
+[03:59:03][INFO] DUMPER v7.0  [ADVANCED EDITION]
+[03:59:03][INFO] Game: Dungeon_Lootr_RELEASE (106484206883664)
+[03:59:03][INFO] Executor: Potassium v2.4.5
+[03:59:03][INFO] Time: Tue Sep  1 03:59:03 2026
+[03:59:03][INFO] API PROBE:
+[03:59:03][INFO]   + cloneref
+[03:59:03][INFO]   + decompile
+[03:59:03][INFO]   + getconstants
+[03:59:03][INFO]   + getfunctionhash
+[03:59:03][INFO]   + getscriptbytecode
+[03:59:03][INFO]   + getscriptclosure
+[03:59:03][INFO]   + getscripthash
+[03:59:03][INFO]   + getupvalues
+[03:59:03][INFO]   + isfile
+[03:59:03][INFO]   + makefolder
+[03:59:03][INFO]   + queue_on_teleport
+[03:59:03][INFO]   + readfile
+[03:59:03][INFO]   + setclipboard
+[03:59:03][INFO]   + writefile
+[03:59:03][INFO] =================================================
+[03:59:03][INFO] Pre-counting scripts per service...
+[03:59:04][INFO]   Workspace → 30 scripts estimated
+[03:59:05][INFO]   ReplicatedStorage → 1110 scripts estimated
+[03:59:05][INFO]   ReplicatedFirst → 0 scripts estimated
+[03:59:06][INFO]   StarterGui → 50 scripts estimated
+[03:59:06][INFO]   StarterPack → 0 scripts estimated
+[03:59:06][INFO]   StarterPlayer → 223 scripts estimated
+[03:59:06][INFO]   Lighting → 0 scripts estimated
+[03:59:06][INFO]   PlayerGui → 58 scripts estimated
+[03:59:06][INFO]   Backpack → 0 scripts estimated
+[03:59:06][SCAN] → Workspace
+[03:59:17][SCRIPT] [LocalScript][decompile][true] game.Workspace.PlayerModels.buffering505.Animate
+[03:59:18][SCRIPT] [LocalScript][decompile][true] game.Workspace.PlayerModels.buffering505.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][decompile][true] game.Workspace.PlayerModels.buffering505.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Namratus1.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Namratus1.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Namratus1.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ecogames7.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ecogames7.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ecogames7.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Txkumachii.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Txkumachii.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Txkumachii.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Empinglolijo.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Empinglolijo.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Empinglolijo.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.HinataOZ.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.HinataOZ.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.HinataOZ.Water_Effect
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Natipol123.Animate
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Natipol123.Lighting_Listener
+[03:59:18][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Natipol123.Water_Effect
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ZincG911.Animate
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ZincG911.Lighting_Listener
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.ZincG911.Water_Effect
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Zero_Bloodier.Animate
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Zero_Bloodier.Lighting_Listener
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.PlayerModels.Zero_Bloodier.Water_Effect
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.abaygakure.Animate
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.abaygakure.Lighting_Listener
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.abaygakure.Water_Effect
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.MarkCode24.Animate
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.MarkCode24.Lighting_Listener
+[03:59:19][SCRIPT] [LocalScript][cached][true] game.Workspace.MarkCode24.Water_Effect
+[03:59:20][SCAN] → ReplicatedStorage
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogModule
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Signal
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Task
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Types
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Types.Characters
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Types.Static1
+[03:59:20][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.MainModule.Types.Static2
+[03:59:20][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.MainModule.Types.Static3
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.MainModule.Types.Enums
+[03:59:20][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.CmdrInterface
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.CmdrInterface.Window
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.CmdrInterface.AutoComplete
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.DefaultEventHandlers
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Shared.Util
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Shared.Registry
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Shared.Dispatcher
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Shared.Command
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Shared.Argument
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.teleport
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.respawn
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.kill
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.kick
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.gotoPlace
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.announce
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.version
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.uptime
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.thru
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.position
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.getPlayerPlaceInstance
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.fetch
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.blink
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.varSet
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.var
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.unbind
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.runif
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.runLines
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.run
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.resolve
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.replace
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.rand
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.pick
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.math
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.len
+[03:59:21][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.jsonArrayEncode
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.jsonArrayDecode
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.hover
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.history
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.edit
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.echo
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.convertTimestamp
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.clear
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.bind
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.alias
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveClassItem
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddPotion
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddRerolls
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SpawnChest
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GlobalEvent
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Unjail
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Jail
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Prestige
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddStars
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.UnlockTitle
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveItem
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiftPass
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.help
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetLevel
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GlobalAnnouncement
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddItem
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SpawnItem
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddTool
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddCurrency
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveEquipment
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.DropLoot
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ExtractLoot
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.WipeLoot
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.IdentifyAll
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AddSpins
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveCosmetic
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveKey
+[03:59:22][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetClass
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SpawnEnemy
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.RequestDelete
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ForgeItem
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveMaterial
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminLowGravity
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminSpawnEnemy
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminSpawnLoot
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.BringAll
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.OpenBossRush
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminTreasureHunt
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.PlaySound
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.StopSound
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.PauseSound
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ResumeSound
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetVolume
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetPlaybackSpeed
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetLooped
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetTimePosition
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SkipFloor
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Admin
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminBigHead
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.AdminTungTung
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ConvertClass
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.EquipClassWeapon
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.UnequipClassWeapon
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.dex
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ChargeUltimate
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.PromptEvent
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.UnlockDungeons
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.ContentCreator
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SetTrait
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.UnlockEmote
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveRandomEmote
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.GiveTitle
+[03:59:23][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Onboarding
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.SendToAFK
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.WipeLeaderboard
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.HideNametag
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.OpenRaid
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Commands.Ban
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ClassItem
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.CosmeticSetId
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.DungeonLocationId
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.EquipmentItemId
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.GiveableItem
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.SlottedHeroType
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.GlobalEventType
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.MutationNameType
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Weapon
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.DevProduct
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Vector
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.UserInput
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.URL
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Type
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Team
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.StoredKey
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Primitives
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.PlayerId
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Player
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.MathOperator
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.JSON
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Duration
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ConditionFunction
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Command
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.Color3
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.BrickColor
+[03:59:24][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.BindableResource
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.GiveScope
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.LevelScope
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ClassName
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.EnemyId
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.MaterialId
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ContentCreatorArgs
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ClassWeaponAspectType
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.AdminAction
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.ToggleState
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.EmoteId
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.TitleId
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.OnboardingAction
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.LeaderboardBoardType
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.BanMode
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.BeforeRun
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.CmdrClient.Types.AfterRun
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.AxisLinks
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Duration
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Emit
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EmitAnimate
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EmitModel
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Engine
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EngineReplay
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EvenCycle
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Events
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EventsCollision
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EventsPayload
+[03:59:25][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.EventsSchema
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Flipbook
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.GetData
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.GetDataRig
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Graph
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.GuiHost
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Highlight
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.ImageEmit
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lifecycle
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.LinkService
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.LinkTrack
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.NestedEmit
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Orientation
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.PartConstants
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Particles
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.PlayHandle
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.PointLight
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Pool
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.PoolHide
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.PreSimulate
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Range
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.RegisterEmit
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.ScreenEmit
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.ScreenHost
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.StaticPass
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TexturePin
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Timescale
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TrailEmitter
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TrailGraphBlender
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Transform
+[03:59:26][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Turbulence
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Update
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.UpdateBeam
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.UpdateModel
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.ZOffset
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.CameraShake
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.CameraShake.Apply
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lightning
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lightning.BoltGen
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lightning.Endpoints
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lightning.PDataBuilder
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Lightning.Rig
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rocks
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rocks.PDataBuilder
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rocks.Trajectory
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rope
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rope.Anchors
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rope.PDataBuilder
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.Rope.VerletSim
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeData
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataCameraShake
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataLightning
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataModel
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataRocks
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataRope
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeDataScreen
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ClientTools.ToolClient
+[03:59:27][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ClientTools.PortalFinderClient
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ClientTools.LoadingOverlay
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ClientTools.BossHealthBars
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Hitman
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Info
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Aura
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Blacksmith
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Guide
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Artemis
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Kage
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Mooncarver
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Ogge
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Coyote
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Rose
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Tachyon
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Galran
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.GroupReward
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Mimika
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Mugen
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Credits
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Valen
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.ForgeArchon
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Eclipse
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Zhuge
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Prestige
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Jetstream
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Supreme
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.SkipEndless
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.AwakenedDevil
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.ShadowMonarch
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.CursedKing
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.GreatMage
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.NekoDance
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.ChallengeGuide
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.Unrestricted
+[03:59:28][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.ForgeGuide
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.AFKChamber
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.DialogueData.DevilHunter
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ContextActionUtility
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.CreateGui
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Initialize
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiveClassItemServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.SpawnChestServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddRerollsServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiveItemServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GlobalEventServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.UnjailServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.JailServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.PrestigeServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddStarsServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.UnlockTitleServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddPotionServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiftPassServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.SetLevelServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GlobalAnnouncementServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.teleportServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.respawnServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.killServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.kickServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.gotoPlaceServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.announceServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Debug.uptimeServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Debug.getPlayerPlaceInstanceServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Debug.fetchServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Utility.varSetServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Utility.varServer
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.emitters
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.types
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.beam
+[03:59:29][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.bezier
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.camera_shake
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.lightning
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.mesh
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.particle
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.randomizer
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.screen
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_debris
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_line
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_ring
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.sound
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.spin
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.tweener
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.attributes
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.lerp
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.logger
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.recolor
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.resize
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.retime
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.shape
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.tween
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.utility
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.color.Oklab
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.color.sRGB
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.common.bezier
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.common.flipbook
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.obj.Bezier
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.obj.ObjectCache
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.pkg.Promise
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.pkg.Shake
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.caches
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.effects
+[03:59:30][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.enabled_effects
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.texture_loader
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.ExternalModules.WebhookServices
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.TileData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.KeyData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ClassItemData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ClassMasteryData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.CosmeticData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.EnemyResolver
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Enemy_Data
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.SummoningData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.EquipmentTemplates
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ItemDescriptions
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BuffPotionData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Image_Data
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PotionData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.AchievementData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.WeaponShopData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.EquipmentShopData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ItemShopData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LootChestConstants
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LootChestData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.UpgradeData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BACKUP_DungeonData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.IndexRewardData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.NPC_ActionData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DungeonData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DungeonChestData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LevelData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.QuestData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.CodesData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ChestData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.TitleData
+[03:59:31][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.MutationData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BaseUpgradeData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ColorData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.WeaponUnlockRates
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.MonetizationList
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LootData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.RarityData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.EquipmentData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ItemData_Backup
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_ActionData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ModifierData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BattlepassData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PackageData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.QuestItemData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.QuestRewardData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ForgeData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PatchNoteData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PatchNoteData.Note_2026_08_21
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BossRushData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PrestigeData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PVPConfig
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PassiveBonusData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.SharedAnimIds
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ItemData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DungeonRarityData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DifficultyCombatData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ClassItemInstance
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.StatData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.PlaceConfig
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LoadoutData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.UIAnimationConfig
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.GearScoreData
+[03:59:32][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.CraftingData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.MobileLayoutData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ConsumableData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BuffData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.StatInfoData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.CombatBaseStats
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.CheckData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.EmoteData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.StarsShopData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ChallengeData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LeaderboardSeason
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ChallengeRewardData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.BankData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DamageNumberData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DamageNumberData.PopAndFall
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DamageNumberData.PopAndHold
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DamageNumberData.FloatAndLinger
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.DataConfig
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.AccessConfig
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.GroupRoles
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.LeaderboardBoards
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ClientBossModels
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ClassObtainment
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.ItemIndexData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.RaidData
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Rolling_Crescent
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Rolling_Crescent_Hold
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Mutilate
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Flickering_Step
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Foxclaw
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Ruin_Onslaught
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Ruin_Eruption
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Iron_Stride
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Ember_Step
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Blazing_Reach
+[03:59:33][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Ashen_Onslaught
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Cataclysm
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Eruption
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Forge_Strike
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Phantom_Veil
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Maximum_Drive
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Dead_or_Alive
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Death_Parade
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Grim_Advance
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Wraith_Dance
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Tombstone
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Soul_Rend
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Crater_Slam
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Dead_or_Alive
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Twin_Strike
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Cerberus_Barrage
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Somersault_Crash
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Thousandfold_Thrust
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Pillar_of_Heaven
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Cyclone_Sweep
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Spatial_Cut
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Cross_Cut
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Void_Cleave
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Judgement_Rush
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Hollow_Rush
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Severance
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Slash_Combo
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Cleaving_Rush
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Fuuga
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Air_Type
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Annihilation_Type
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Disorder_Type
+[03:59:34][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Destruction_Type
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Frame_Onslaught
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Artemis.Twin_Bolt
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Artemis.Moonfall
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Artemis.Tempest_Strike
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Artemis.Stormfire
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Framebreaker.Frame_Skip
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Framebreaker.Projection_Jab
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Framebreaker.Earthshatter
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Framebreaker.Frame_Onslaught
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Spatial_Cut
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Cross_Cut
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Void_Cleave
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Judgement_Rush
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Traced_Arsenal_Hold
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Infinite_Creation
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Fuuka
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Fuyubachi
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Kazahana
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Hanafubuki
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Hanafubuki_Vortex
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Master Ronin.Tenka_Gyakusei
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Master Ronin.Mikazuki
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Master Ronin.Midaregiri
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Traced_Arsenal_Tap
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Traced_Arsenal_Hold
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Blade_Projection
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Rain_of_Swords_Tap
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Rain_of_Swords_Hold
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Infinite_Creation
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Shadow_Step
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Heart_Stab
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Devouring_Gale
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Fists_of_Ruin
+[03:59:35][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Crimson_Rush
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Dread_Vortex
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Gravefall
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Rose_Cataclysm
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Hurricane
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Twelve_Fold_Cleave
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Divider
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Divider_Final
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Cadence
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Split_Soul
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Playful_Cloud
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Playful_Cloud_Heat
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Instinct
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Instinct_Heat
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Honored One.Red
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Honored One.Blue
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Demonbane.Zoltraak
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Demonbane.Vollzanbel
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Demonbane.Catastravia
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Witch_Twist
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Bullet_Carnival
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Thorn_Recoil
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Wicked_Sabbath
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerCadence_Sword
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerCadence_Spear
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerInstinct_Sword
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerInstinct_Spear
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.DomainShatter_Sword
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.DomainShatter_Spear
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Mirage_Chase
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Spatial_Divide
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Sky_Crash
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Lunar_Phase
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Lunar_Eclipse
+[03:59:36][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Blade_Flicker
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Rising_Flicker
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Tempest_Edge
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Jetstream_Sheath
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Boss_Phases.Underworld_Gatekeeper
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.GameInfo.Consumables.AspectGem.Definition
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Cosmetic_Manager
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Weld_Manager
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Signal
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Signal.Connection
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.ErrorEnums
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.ErrorEnums.ErrorEnumClass
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Enums
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Enums.CustomEnumClass
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.CoroutinePool
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.CoroutinePool.CoroutineCache
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.ConnectionManager
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.AttributeObserver
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Weapon_Weld
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.ProjectileUtil
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Emit
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.EmitAnimate
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.EmitModel
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Flipbook
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.GetData
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Graph
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.PartConstants
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Particles
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Range
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Transform
+[03:59:37][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.TypeRegistry
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.TypeRegistry.TypeData
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.Update
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.Part_Icles.UpdateModel
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.FX_Broadcaster
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.DebugFlags
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Globals.Modules.RigMap
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux.TypeMarshaller
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux.TypeDefinitions
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux.Signal
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux.ActiveCast
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.FastCastRedux.Table
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.StatusEffectScheduler
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.StarBurst
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.CameraShake
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.DropSpawner
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.ViewportModel
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.SharedUtils
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.PhantomAttack
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.Spring
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.RigUtil
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.RarityGradient
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.ForgeVFXUtil
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.ObjectCache
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.DamageDisplay
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.GlassShatter
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.AspectRuntime
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.ProfileStore
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Promise
+[03:59:38][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.maid
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.TableUtil
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Signal
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Replica
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Loader
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Cmdr
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Iris
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Janitor
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages.Knit
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@1.5.0.signal
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@1.5.0.signal.wally
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@1.5.0.signal.init.spec
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util.wally
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util.init.spec
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_option@1.0.5.option
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_option@1.0.5.option.wally
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_option@1.0.5.option.init.spec
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.signal
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.signal.wally
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.signal.init.test
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.devsparkle_maid@2.1.0.maid
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_profilestore@1.0.21.profilestore
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_promise@4.0.0.promise
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_promise@4.0.0.promise.init.spec
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_loader@2.0.0.loader
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_loader@2.0.0.loader.wally
+[03:59:39][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.wally
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.server
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.client
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.Shared.Signal
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.Shared.Remote
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.Shared.RateLimit
+[03:59:40][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.Shared.Maid
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Initialize
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CreateGui
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.DefaultEventHandlers
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.CmdrInterface
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.CmdrInterface.Window
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.CmdrInterface.AutoComplete
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Util
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Registry
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Dispatcher
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Command
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Argument
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Vector
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.UserInput
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.URL
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Type
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Team
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.StoredKey
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Primitives
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.PlayerId
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Player
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.MathOperator
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.JSON
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Duration
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.ConditionFunction
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Command
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Color3
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.BrickColor
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.BindableResource
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.help
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.varSetServer
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.varSet
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.varServer
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.var
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.unbind
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.runif
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.runLines
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.run
+[03:59:40][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.resolve
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.replace
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.rand
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.pick
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.math
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.len
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.jsonArrayEncode
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.jsonArrayDecode
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.hover
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.history
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.edit
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.echo
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.convertTimestamp
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.clear
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.bind
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Utility.alias
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.version
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.uptimeServer
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.uptime
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.thru
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.position
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.getPlayerPlaceInstanceServer
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.getPlayerPlaceInstance
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.fetchServer
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.fetch
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Debug.blink
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.teleportServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.teleport
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.respawnServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.respawn
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.killServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.kill
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.kickServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.kick
+[03:59:41][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.gotoPlaceServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.gotoPlace
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.announceServer
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInCommands.Admin.announce
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Window
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Tree
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Text
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Table
+[03:59:41][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Root
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.RadioButton
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Plot
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Menu
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Input
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Image
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Format
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Combo
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Checkbox
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Button
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.demoWindow
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.config
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.Types
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.Internal
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.API
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit.wally_bundle
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit.wally
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit.KnitClient
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.Promise
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.Comm
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.wally
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Util
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Types
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.ServerComm
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.RemoteSignal
+[03:59:42][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.RemoteProperty
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientRemoteSignal
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientRemoteProperty
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientComm
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Signal
+[03:59:43][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Promise
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Option
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_typed-promise@4.0.6.typed-promise
+[03:59:43][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Packages._Index.howmanysmall_typed-promise@4.0.6.Promise
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.jest.config
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.Promise
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.FastDefer
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.__tests__.Janitor.test
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.Promise
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Player.Modules.Weapon_Input
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Player.Modules.Weapon_Manager
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Player.Modules.InputMapData
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.SharedDictionaries.RarityColors
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Class_Data
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Definition
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skills.Somersault Crash
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skills.Thousandfold Thrust
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skills.Pillar of Heaven
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skills.Cyclone Sweep
+[03:59:43][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Mastery_Passives.Body_Outside_the_Body
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skill_Modules.M1_ForgeVFX
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Somersault_Crash
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Thousandfold_Thrust
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Pillar_of_Heaven
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Cyclone_Sweep
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Archer.Definition
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Archer.Skills.Zephyr Barrage
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Archer.Skills.Luthiens Rain
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Archer.Skills.Radiant Volley
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Archer.Skills.Divine Volley
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Definition
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skills.Water Wheel
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skills.Surface Slash
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skills.Blessed Rain
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skills.Constant Flux
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skills.Flowing Dance
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.M1_ForgeVFX
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Water_Wheel
+[03:59:44][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Surface_Slash
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Flowing_Dance
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Flowing_Dance_VAR
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Constant_Flux
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Blessed_Rain
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Constant_Flux_VAR
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Definition
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skills.Malevolent Sanctum
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skills.Cleave Rush
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skills.Slash Combo
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skills.Cleaving Rush
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skills.Fuuga
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Malevolent_Sanctum
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Cleave_Rampage
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Flaming_Arrow
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Cleave_Rush
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.M1_ForgeVFX
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Slash_Combo
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Cleaving_Rush
+[03:59:45][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Fuuga
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Definition
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skills.Black Flash
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skills.Tri-Step
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skills.Triple Kick
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skills.Black Flash Combo
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Mastery_Passives.Flash_Proc
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.M1_ForgeVFX
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Tri_Step
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Triple_Kick
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Black_Flash_Combo
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Black_Flash
+[03:59:46][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Demonbane.Definition
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Demonbane.Skills.Zoltraak
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Demonbane.Skills.Vollzanbel
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Demonbane.Skills.Gravity Well
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Demonbane.Skills.Catastravia
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Anti Magic.Definition
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Hurricane
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Anti Magic.Skills.Twelve-Fold Cleave
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Divider
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Divider Final
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skills.Flash Step
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skills.Cero Blast
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skills.Sonido Barrage
+[03:59:47][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skills.Javelin Toss
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.M1_ForgeVFX
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Flash_Step
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Cero_Blast
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Sonido_Barrage
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Javelin_Toss
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Definition
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skills.Blade Flicker
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skills.Rising Flicker
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skills.Jetstream Sheath
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skills.Tempest Edge
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.M1_ForgeVFX
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Blade_Flicker
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Rising_Flicker
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Jetstream_Sheath
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Tempest_Edge
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Definition
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Flickering Step
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Foxclaw
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Mutilate
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Rolling Crescent
+[03:59:48][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Sovereign of Shadows
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Mastery_Passives.Evasive_Stride
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.M1_ForgeVFX
+[03:59:49][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Flickering_Step
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Rolling_Crescent
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Foxclaw
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Mutilate
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Sovereign_of_Shadows
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Greatsword.Definition
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Greatsword.Skills.Cataclysm
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Greatsword.Skills.Blazing Spiral
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Greatsword.Skills.Skull Splitter
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Greatsword.Skills.Great Chase
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Oathbreaker.Definition
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Oathbreaker.Skills.Ruin Eruption
+[03:59:49][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Oathbreaker.Skills.Ruin Onslaught
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Oathbreaker.Skills.Iron Stride
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Oathbreaker.Skills.Shattered Sweep
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Bowman.Definition
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Bowman.Skills.Deadeye
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Bowman.Skills.Hail Volley
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Bowman.Skills.Fadeaway Shot
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Bowman.Skills.Phantom Stride
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Flame Bastion.Definition
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Flame Bastion.Skills.Ashen Onslaught
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Flame Bastion.Skills.Ember Step
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Flame Bastion.Skills.Pyre Cyclone
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Flame Bastion.Skills.Blazing Reach
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Definition
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Skills.Judgement Rush
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Skills.Void Cleave
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Skills.Cross Cut
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Skills.Spatial Cut
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Azure Devil.Mastery_Passives.Phantom_Strikes
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Definition
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skills.Tool Swap
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skills.Killer Cadence
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skills.Killer Instinct
+[03:59:50][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skills.Domain Shatter
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.M1_ForgeVFX
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Tool_Swap
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Killer_Cadence
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Killer_Instinct
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Domain_Shatter
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Definition
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skills.Severance
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skills.Hollow Rush
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skills.Cursed Speech
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skills.Cursed Love
+[03:59:51][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.M1_ForgeVFX
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Hollow_Rush
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Severance
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Cursed_Speech
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Cursed_Love
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Mirage Chase
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Spatial Divide
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Sky Crash
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Lunar Phase
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Lunar Eclipse
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Mastery_Passives.Summoned_Sword
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.M1_ForgeVFX
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Mirage_Chase
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Spatial_Divide_Tap
+[03:59:52][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Spatial_Divide_Hold
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Sky_Crash_Ground
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Sky_Crash_Air
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Lunar_Phase
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Lunar_Eclipse
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Boxer.Definition
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Boxer.Skills.Quick Jab
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Boxer.Skills.Gazelle Sweep
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Boxer.Skills.Tri-Jab
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Boxer.Skills.Wolfs Fang
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Witch Gunner.Definition
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Witch Gunner.Skills.Wicked Sabbath
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Witch Gunner.Skills.Thorn Recoil
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Witch Gunner.Skills.Bullet Carnival
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Witch Gunner.Skills.Witch Twist
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Definition
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Malevolent Sanctum
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Blue
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Red
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Hollow Purple
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Infinity
+[03:59:53][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skills.Infinite Void
+[03:59:54][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Cleave_Rampage
+[03:59:54][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Flaming_Arrow
+[03:59:54][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.M1_ForgeVFX
+[03:59:54][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Blue
+[03:59:54][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Red
+[03:59:54][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Hollow_Purple
+[03:59:54][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Infinite_Void
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Definition
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Skills.Falling Blossom
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Skills.Swallow Cut
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Skills.Setting Horizon
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Skills.Ichimonji
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Ronin.Mastery_Passives.Dodge_Blossom
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dreadlord.Definition
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dreadlord.Skills.Crimson Rush
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dreadlord.Skills.Dread Vortex
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dreadlord.Skills.Rose Cataclysm
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dreadlord.Skills.Gravefall
+[03:59:55][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shinobi.Definition
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shinobi.Skills.Kurogiri
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shinobi.Skills.Guillotine Drop
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shinobi.Skills.Oni Rend
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Shinobi.Skills.Flash Rend
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Prisma.Definition
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Prisma.Skills.Fang Rush
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Prisma.Skills.Shackle Rend
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Prisma.Skills.Rake Barrage
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Prisma.Skills.Prism Ruin
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Definition
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Skills.Frame Skip
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Skills.Projection Jab
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Skills.Earthshatter
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Skills.24-Frame Onslaught
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Framebreaker.Mastery_Passives.Projection_Retaliation
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Artemis.Skills.Twin Bolt
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Artemis.Skills.Moonfall
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Artemis.Skills.Tempest Strike
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Artemis.Skills.Stormfire
+[03:59:56][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Artemis.Mastery_Passives.Spectral_Hunt
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Definition
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skills.Triple Fang
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skills.Pack Hunt
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skills.Howling Barrage
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skills.Apex Predator
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skill_Modules.Cero_Phantom
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Coyote.Skill_Modules.StarrkFlashstep
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Definition
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skills.Fuuka
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skills.Kazahana
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skills.Fuyubachi
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skills.Hanafubuki
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Mastery_Passives.Shimotsuki
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skill_Modules.Hanafubuki
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Zero.Skill_Modules.Hanafubuki_Vortex
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Wanderer.Definition
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Mirage
+[03:59:57][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Volley
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Severance
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Reckoning
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Definition
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Air Type
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Annihilation Type
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Chaotic Blue Silver Afterglow
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.8 Layered Demon Core
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Chaotic Fist.Mastery_Passives.Chaotic_Counter
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Definition
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skills.Twin Projection
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skills.Crane Wing
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skills.Hrunting
+[03:59:58][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skills.Supreme Cell Blades
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.M1_ForgeVFX
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Twin_Projection
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Crane_Wing
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Hrunting
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Supreme_Cell_Blades
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Assassin.Definition
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Assassin.Skills.Chasing Spire
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Assassin.Skills.Cross Slash
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Assassin.Skills.Flickering Shadows
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Assassin.Skills.Phantom Swarm
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Spell Breaker.Definition
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Rushing Edge
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Rising Tempest
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Blade Flurry
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Hypersonic Rush
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Definition
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Skills.Shadow Step
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Skills.Fists of Ruin
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Skills.Devouring Gale
+[03:59:59][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Skills.Heart Stab
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Kage.Mastery_Passives.Shadow_Pursuit
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Definition
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Skills.Crashing Talon
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Skills.Renewal Flurry
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Skills.Twin Dragons
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Skills.Hundred Kicks
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Mori.Mastery_Passives.Relentless
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Definition
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skills.Eclipse Draw
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skills.Umbral Rite
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skills.Nightfall Onslaught
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skills.Sunless Sovereign
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.M1_ForgeVFX
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Eclipse_Draw
+[04:00:00][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Umbral_Rite
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Nightfall_Onslaught
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Sunless_Sovereign
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Definition
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skills.Flame Step
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skills.Crescent Ember
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skills.Inferno Drill
+[04:00:00][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skills.Ascetic Rite
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.M1_ForgeVFX
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Flame_Step
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Crescent_Ember
+[04:00:01][SCRIPT] [ModuleScript][cached][true] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Inferno_Drill
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Ascetic_Rite
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Definition
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Blade Rush
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Frag Out
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Bullet Storm
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Quickdraw
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Stampede
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Death Sentence
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Slash Storm
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Skills.Bullet Typhoon
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Hitman.Mastery_Passives.Body_Double
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Definition
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Crossfire
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Showstopper
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Rainstorm
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Hysteria
+[04:00:01][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Sinister Trigger.Mastery_Passives.Deadeye
+[04:00:02][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Classes.Dark Professor.Definition
+[04:00:04][SCRIPT] [LocalScript][decompile][true] game.ReplicatedStorage.Assets.UI.Purchase Pending.Frame.gif.LocalScript
+[04:00:04][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Assets.UI.Purchase Pending.Frame.gif.LocalScript.GIF
+[04:00:04][SCRIPT] [Script[Client]][decompile][true] game.ReplicatedStorage.Assets.Scripts.Animate
+[04:00:06][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Assets.Boss_Sets.Basic.Skill_Modules.M1_ForgeVFX
+[04:00:06][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Enemies.Modules.Enemy_Manager
+[04:00:06][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Enemies.Modules.Enemy_Data
+[04:00:06][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Blaze.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Fulmin.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Glaciel.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Verdant.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Sanguine.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Umbral.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Aegis.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Tempest.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Phantom.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Ruin.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Mutations.Alacrity.Definition
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Callbacks
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Data
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Data
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Effects.Momentum
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Effects.Executioner
+[04:00:07][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Effects.Venomous
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Wicked Flair
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Slide Shootin
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Tenka Gyakusei
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Shadow Dash
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Magic Barrage
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Coyote Barrage
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Flurry
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Judgement
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Arrow Rain
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Rolling Slice
+[04:00:08][SCRIPT] [ModuleScript][decompile][true] game.ReplicatedStorage.Weapons.Weapon_Skills.Tsujigiri
+[04:00:09][SCAN] → ReplicatedFirst
+[04:00:09][SCAN] → StarterGui
+[04:00:09][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.HUD.Notification.MobileReposition
+[04:00:09][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.HUD.Top.Luck.CurrentLuck.UIGradient.LocalScript
+[04:00:09][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.HUD.Top.Luck.Time.UIGradient.LocalScript
+[04:00:09][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.HUD.Announcements.MobileReposition
+[04:00:09][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.HUD.Tester_Frame.ImageLabel.LocalScript
+[04:00:09][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Yamato.ItemName.UIGradient.LocalScript
+[04:00:09][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.HERO_LOADER
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Title.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Title.TitleName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_25.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_10.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_5.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.DamageUpPotion.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Stars_175.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Stars_175.Amount.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Demon Daggers.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Weapon.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Weapon.Icon.WEAPON_LOADER
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.RandomCrystal.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Crystal.DisplayName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Coyote Pistols.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Item_Frame.ItemName.UIGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.MobileResize
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_1.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_1.Reward_Amount.CoinsGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_2.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_2.Reward_Amount.CoinsGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_3.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_3.Reward_Amount.CoinsGradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_4.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:10][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_4.Reward_Amount.CoinsGradient.LocalScript
+[04:00:11][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Notes_OLD.MobileResize
+[04:00:11][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.VIP.ItemName.UIGradient.LocalScript
+[04:00:11][SCRIPT] [LocalScript][decompile][true] game.StarterGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.VIP.List.CharacterTemplate.ViewportFrame.HERO_LOADER
+[04:00:11][SCRIPT] [LocalScript][cached][true] game.StarterGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.PowerfulStarterPack.List.CharacterTemplate.ViewportFrame.HERO_LOADER
+[04:00:12][SCRIPT] [LocalScript][decompile][true] game.StarterGui.dialog.dialogResponses.template.text.update size
+[04:00:12][SCRIPT] [LocalScript][cached][true] game.StarterGui.Settings.Main.MobileResize
+[04:00:12][SCAN] → StarterPack
+[04:00:12][SCAN] → StarterPlayer
+[04:00:12][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.ModuleScript
+[04:00:12][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.CameraClient
+[04:00:12][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client
+[04:00:12][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Inventory
+[04:00:12][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Storage
+[04:00:12][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Currency
+[04:00:12][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Top
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Keybinds
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Left
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.BuffsDisplay
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemShop
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Shop
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Onboarding
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.BackgroundMusic
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.AchievementController
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.TitleIndex
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Codes
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Quests
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ActionsHUD
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.PotionController
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.PassiveBonusDisplay
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Stats
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.UpgradeController
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ClassInfo
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.PartyFrame
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemNotification
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.HitCombo
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Battlepass
+[04:00:13][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.StarsShop
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ForgeController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.PatchNotes
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryLoadouts
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryItems
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryItemInfo
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryCharacterPreview
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryStatUpgrade
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.CraftingController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryCosmeticsList
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.Right
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.UIPrewarm
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.GearscoreNotification
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryStatInfo
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.EmoteWheel
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.MenuButtons
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemIndex
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Gameplay.Actions
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Gameplay.Interface
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Gameplay.Interface.Template
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.InputController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.Registry
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SoundController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.NotificationController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.UIController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.MarketplaceController
+[04:00:14][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DropController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SettingsController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonHUDController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.NoticeController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.StatController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.HealthbarController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LootChestController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonChestController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonLootController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DialogueController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.WarningController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonSelectController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.IdentifierController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SummoningController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonNotificationController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LightingController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BattlepassController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.PortalController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushSelectController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushHUDController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.InputBindingController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.MenuHotkeyController
+[04:00:15][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushSpectateController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RewardRevealController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.AreaWarpController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.HideUIController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.UIAnimationController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.PlayerListController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonInviteController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossLootChestController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.VIPChatTagController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChestSelectionController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BoostSelectionController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SurviveRoomController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EmoteFXController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EndlessController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeSpectateController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeHUDController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DebugBridgeController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonOnboardingPointer
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeDungeonController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.AccessGateController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LobbyLightingController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EventRsvpController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidSelectController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidHUDController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidSpectateController
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.SlotPrompt
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ButtonHover
+[04:00:16][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ButtonClick
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ClickSound
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.SetCollision
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.FloorItem
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.Prompts
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.Jail
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.NPC_COMP
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ProductButton
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ToolClientComp
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.CurrencyButton
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ChestSpinner
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.CombatFeedbackHandler
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ShadowDashFX
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ButtonRipple
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.PhantomAttackFX
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.PlacedEffectFX
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ClassEffectRenderer
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.DamageDisplayHandler
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.SpellBurstFX
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.ToolTip
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.AdminInvisibility
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.AspectBurstFX
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.Components.AdminNametagHide
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ButtonAnimations
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ConvertToAbsolute
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ShowViewport
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.spr
+[04:00:17][SCRIPT] [ModuleScript][cached][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ViewportModel
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.RewardCardRender
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.SelectionHighlight
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.CooldownOverlay
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.CosmeticViewport
+[04:00:17][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.RevealCascade
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ForgeAnimator
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.EquipmentStatLines
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.TabStyles
+[04:00:18][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.CooldownTracker_Init
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.CooldownTracker_Init.CooldownTracker
+[04:00:18][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages.topbarplus
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Attribute
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Reference
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Utility
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.VERSION
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Caption
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Container
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Dropdown
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Indicator
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Menu
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Notice
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Selection
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Widget
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Gamepad
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Overflow
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Themes
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Themes.Classic
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Themes.Default
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Packages.GoodSignal
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Packages.Janitor
+[04:00:18][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.StrokeAdjuster
+[04:00:18][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.StrokeAdjuster.UIStrokeAdjuster
+[04:00:19][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.Weapon_Input_Sink
+[04:00:19][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.AdminSoundHandler
+[04:00:19][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.FX_Listener
+[04:00:19][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerScriptsLoader
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VehicleController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.PathDisplay
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveDisplay
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.BaseCharacterController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Keyboard
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VRNavigation
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchThumbstick
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DynamicThumbstick
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.OrbitalCamera
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController.Popper
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraToggleStateController
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCameraDeprecated
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Invisicam
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUtils
+[04:00:19][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ClassicCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraInput
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector.spec
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraUI
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseOcclusion
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraConfig
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Poppercam
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.LegacyCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCamera
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CharacterUtil
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil.spec
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.FlagUtil
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper
+[04:00:20][SCRIPT] [LocalScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.RbxCharacterSounds
+[04:00:20][SCRIPT] [ModuleScript][decompile][true] game.StarterPlayer.StarterPlayerScripts.RbxCharacterSounds.AtomicBinding
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.StarterPlayer.StarterCharacterScripts.Animate
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.StarterPlayer.StarterCharacterScripts.Lighting_Listener
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.StarterPlayer.StarterCharacterScripts.Water_Effect
+[04:00:20][SCAN] → Lighting
+[04:00:20][SCAN] → PlayerGui
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.HUD.Notification.MobileReposition
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.HUD.Top.Luck.CurrentLuck.UIGradient.LocalScript
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.HUD.Top.Luck.Time.UIGradient.LocalScript
+[04:00:20][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.HUD.Announcements.MobileReposition
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.HUD.Tester_Frame.ImageLabel.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Yamato.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.HERO_LOADER
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Title.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Title.TitleName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_25.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_10.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Cash_5.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.DamageUpPotion.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Stars_175.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Stars_175.Amount.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Demon Daggers.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Weapon.ItemName.UIGradient.LocalScript
+[04:00:21][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Weapon.Icon.WEAPON_LOADER
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.RandomCrystal.ItemName.UIGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Crystal.DisplayName.UIGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Coyote Pistols.ItemName.UIGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Item_Frame.ItemName.UIGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.MobileResize
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_1.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_1.Reward_Amount.CoinsGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_2.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_2.Reward_Amount.CoinsGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_3.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_3.Reward_Amount.CoinsGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_4.Reward_Amount.Stars_Gradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.ORIGINAL.Battlepass_Quests.Body.Quest_4.Reward_Amount.CoinsGradient.LocalScript
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Notes_OLD.MobileResize
+[04:00:22][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.VIP.ItemName.UIGradient.LocalScript
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.1.text.update size
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.2.text.update size
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.3.text.update size
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.4.text.update size
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.5.text.update size
+[04:00:26][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.6.text.update size
+[04:00:27][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.7.text.update size
+[04:00:27][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.8.text.update size
+[04:00:27][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.dialog.dialogResponses.9.text.update size
+[04:00:27][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Settings.Main.MobileResize
+[04:00:27][SCRIPT] [LocalScript][cached][true] game.Players.Natipol123.PlayerGui.Purchase Pending.Frame.gif.LocalScript
+[04:00:27][SCRIPT] [ModuleScript][cached][true] game.Players.Natipol123.PlayerGui.Purchase Pending.Frame.gif.LocalScript.GIF
+[04:00:27][SCAN] → Backpack
+[04:00:27][INFO] Writing reports...

@@ -1,0 +1,25 @@
+SIZE BREAKDOWN — DUMPER v7.0
+
+── By Service ──
+  StarterPlayer           220 scripts    2789.1 KB
+  Workspace                33 scripts     535.1 KB
+  StarterGui               38 scripts      15.6 KB
+  PlayerGui                46 scripts      22.7 KB
+  ReplicatedStorage       1110 scripts    5885.5 KB
+
+── By Type ──
+  LocalScript             130 scripts     695.4 KB
+  Script[Client]            1 scripts      22.2 KB
+  ModuleScript            1316 scripts    8530.4 KB
+
+── Top 10 Largest Scripts ──
+   1.    102.6 KB  [ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_ActionData
+   2.     88.8 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonHUDController
+   3.     80.8 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SummoningController
+   4.     79.0 KB  [ReplicatedStorage] game.ReplicatedStorage.MainModule.Types
+   5.     76.0 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushSelectController
+   6.     73.2 KB  [ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_promise@4.0.0.promise.init.spec
+   7.     70.8 KB  [ReplicatedStorage] game.ReplicatedStorage.GameInfo.PackageData
+   8.     69.6 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonSelectController
+   9.     69.6 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Inventory
+  10.     66.3 KB  [StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Shop

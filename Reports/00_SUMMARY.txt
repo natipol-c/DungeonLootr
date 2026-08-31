@@ -1,0 +1,19 @@
+
+=======================================================
+  DUMP COMPLETE — DUMPER v7.0  [ADVANCED EDITION]
+=======================================================
+  Game:            Dungeon_Lootr_RELEASE
+  PlaceId:         106484206883664
+  Executor:        Potassium v2.4.5
+  Time:            Tue Sep  1 04:00:30 2026
+  Elapsed:         01:26
+
+  LocalScripts:    130 found  130 ok  0 fail
+  ModuleScripts:   1316 found  1316 ok  0 fail
+  Script[Client]:  1 found  1 ok  0 fail
+  Cache hits:      189  | Retried: 0 | RSB1: 0
+  Remotes:         377  | Bindables: 0
+
+  Instances scanned: 199170
+  Files written:   1451  (14815.2 KB)
+=======================================================

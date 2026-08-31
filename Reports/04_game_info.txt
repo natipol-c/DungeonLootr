@@ -1,0 +1,6 @@
+GAME INFO  — DUMPER v7.0
+
+  Creator             : ClickBytes
+  PlaceId             : 106484206883664
+  Name                : Dungeon_Lootr_RELEASE
+  CreatorType         : Group

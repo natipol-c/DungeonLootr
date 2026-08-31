@@ -1,0 +1,3548 @@
+DEPENDENCY GRAPH — DUMPER v7.0
+Shows require() calls found in decompiled scripts
+
+[Workspace] game.Workspace.PlayerModels.buffering505.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.Namratus1.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.ecogames7.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.Txkumachii.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.Empinglolijo.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.HinataOZ.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.Natipol123.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.ZincG911.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.PlayerModels.Zero_Bloodier.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.abaygakure.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[Workspace] game.Workspace.MarkCode24.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.MainModule
+    → require(script.Signal)
+    → require(script.Task)
+    → require(script.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.MainModule.Signal
+    → require(script.Parent.Task)
+
+[ReplicatedStorage] game.ReplicatedStorage.MainModule.Types
+    → require(script.Characters)
+    → require(script.Enums)
+    → require(script.Static1)
+    → require(script.Static2)
+    → require(script.Static3)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient
+    → require(Shared:WaitForChild("Util")
+    → require(Shared.Registry)
+    → require(Shared.Dispatcher)
+    → require(script.CmdrInterface)
+    → require(script.DefaultEventHandlers)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.CmdrInterface
+    → require(script:WaitForChild("Window")
+    → require(script:WaitForChild("AutoComplete")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.DefaultEventHandlers
+    → require(script.Parent.CmdrInterface.Window)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Shared.Registry
+    → require(script.Parent.Util)
+    → require(child)
+    → require(p21)
+    → require(p22)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Shared.Dispatcher
+    → require(script.Parent.Util)
+    → require(script.Parent.Command)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Shared.Command
+    → require(script.Parent.Argument)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Shared.Argument
+    → require(script.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.ClassItem
+    → require(GameInfo:WaitForChild("ClassItemData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.CosmeticSetId
+    → require(GameInfo:WaitForChild("CosmeticData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.DungeonLocationId
+    → require(GameInfo:WaitForChild("DungeonData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.EquipmentItemId
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.GiveableItem
+    → require(GameInfo:WaitForChild("PotionData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("TitleData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("ConsumableData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.SlottedHeroType
+    → require(game.ReplicatedStorage.GameInfo.ItemData)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.DevProduct
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Vector
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.UserInput
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.URL
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Type
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Team
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.StoredKey
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Primitives
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.PlayerId
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Player
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Duration
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Command
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.Color3
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.BrickColor
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.ClassName
+    → require(ReplicatedStorage:WaitForChild("Classes")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.EnemyId
+    → require(GameInfo:WaitForChild("Enemy_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.MaterialId
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("ForgeData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.AdminAction
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.ToggleState
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.EmoteId
+    → require(GameInfo:WaitForChild("EmoteData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.TitleId
+    → require(GameInfo:WaitForChild("TitleData")
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.OnboardingAction
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.LeaderboardBoardType
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.BeforeRun
+    → require(ServerScriptService.Cmdr.CmdrAdmin)
+
+[ReplicatedStorage] game.ReplicatedStorage.CmdrClient.Types.AfterRun
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles
+    → require(script.Particles)
+    → require(script.PlayHandle)
+    → require(script.GetData)
+    → require(script.Transform)
+    → require(script.Update)
+    → require(script.UpdateBeam)
+    → require(script.Timescale)
+    → require(script.Emit)
+    → require(script.EmitAnimate)
+    → require(script.EmitModel)
+    → require(script.UpdateModel)
+    → require(script.PointLight)
+    → require(script.Highlight)
+    → require(script.Lightning)
+    → require(script.CameraShake)
+    → require(script.Rocks)
+    → require(script.Rope)
+    → require(script.TrailEmitter)
+    → require(script.ScreenEmit)
+    → require(script.ImageEmit)
+    → require(script.LinkTrack)
+    → require(script.Orientation)
+    → require(script.ZOffset)
+    → require(script.Engine)
+    → require(script.EngineReplay)
+    → require(script.PreSimulate)
+    → require(script.RegisterEmit)
+    → require(script.Lifecycle)
+    → require(script.Duration)
+    → require(script.TexturePin)
+    → require(script.LinkService)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Duration
+    → require(script.Parent.Graph)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Emit
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.Particles)
+    → require(script.Parent.Flipbook)
+    → require(script.Parent.Events)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.Pool)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.StaticPass)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.EmitAnimate
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Particles)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.Events)
+    → require(script.Parent.StaticPass)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.EmitModel
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.Particles)
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.Events)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.Pool)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.StaticPass)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Engine
+    → require(script.Parent.Events)
+    → require(script.Parent.EventsCollision)
+    → require(script.Parent.Pool)
+    → require(script.Parent.CameraShake.Apply)
+    → require(script.Parent.ScreenHost)
+    → require(script.Parent.TexturePin)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.EngineReplay
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.StaticPass)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Events
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.EventsCollision)
+    → require(script.Parent.EventsPayload)
+    → require(script.Parent.EventsSchema)
+    → require(script.Parent.Pool)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.EventsCollision
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.Graph)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.EventsSchema
+    → require(script.Parent.TypeRegistry)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Flipbook
+    → require(script.Parent.Range)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.GetData
+    → require(script.Parent.Flipbook)
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.EventsSchema)
+    → require(script.Parent.GetDataRig)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Highlight
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Pool)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.ImageEmit
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.ScreenHost)
+    → require(script.Parent.Pool)
+    → require(script.Parent.StaticPass)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Lifecycle
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.Particles)
+    → require(script.Parent.Events)
+    → require(script.Parent.Pool)
+    → require(script.Parent.EvenCycle)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.LinkService
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.LinkTrack
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.NestedEmit
+    → require(script.Parent.Pool)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Particles
+    → require(script.Parent.Range)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.PointLight
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Pool)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Pool
+    → require(script.Parent.PoolHide)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.PreSimulate
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.RegisterEmit
+    → require(script.Parent.Events)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.ScreenEmit
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.ScreenHost
+    → require(script.Parent.GuiHost)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.StaticPass
+    → require(script.Parent.Graph)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.TexturePin
+    → require(script.Parent.GuiHost)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.TrailEmitter
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.TrailGraphBlender)
+    → require(script.Parent.Pool)
+    → require(script.Parent.Flipbook)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.TrailGraphBlender
+    → require(script.Parent.Graph)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Transform
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Turbulence
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Update
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.EventsCollision)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.UpdateBeam
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.UpdateModel
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.EventsCollision)
+    → require(script.Parent.Turbulence)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.CameraShake
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.PartConstants)
+    → require(script.Apply)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Lightning
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Pool)
+    → require(script.Parent.PartConstants)
+    → require(script.Parent.AxisLinks)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.Particles)
+    → require(script.Parent.Turbulence)
+    → require(script.Parent.Events)
+    → require(script.BoltGen)
+    → require(script.Rig)
+    → require(script.Endpoints)
+    → require(script.PDataBuilder)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Lightning.Endpoints
+    → require(script.Parent.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Lightning.PDataBuilder
+    → require(script.Parent.Parent.Graph)
+    → require(script.Parent.Parent.Range)
+    → require(script.Parent.Parent.AxisLinks)
+    → require(script.Parent.Parent.PartConstants)
+    → require(script.Parent.Parent.Turbulence)
+    → require(script.Parent.Endpoints)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Lightning.Rig
+    → require(script.Parent.Parent.Pool)
+    → require(script.Parent.BoltGen)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Rocks
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Pool)
+    → require(script.Parent.Events)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.Particles)
+    → require(script.Parent.PartConstants)
+    → require(script.Trajectory)
+    → require(script.PDataBuilder)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Rocks.PDataBuilder
+    → require(script.Parent.Parent.Graph)
+    → require(script.Parent.Parent.Range)
+    → require(script.Parent.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Rope
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Pool)
+    → require(script.Parent.NestedEmit)
+    → require(script.Parent.Particles)
+    → require(script.Parent.Turbulence)
+    → require(script.Parent.PartConstants)
+    → require(script.VerletSim)
+    → require(script.Anchors)
+    → require(script.PDataBuilder)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Rope.Anchors
+    → require(script.Parent.Parent.PartConstants)
+    → require(script.Parent.VerletSim)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.Rope.PDataBuilder
+    → require(script.Parent.Parent.Graph)
+    → require(script.Parent.Parent.Range)
+    → require(script.Parent.Parent.PartConstants)
+    → require(script.Parent.Parent.Turbulence)
+    → require(script.Parent.Parent.AxisLinks)
+    → require(script.Parent.Anchors)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.TypeRegistry
+    → require(script.TypeData)
+
+[ReplicatedStorage] game.ReplicatedStorage.Part_Icles.TypeRegistry.TypeData
+    → require(script.Parent.TypeDataScreen)
+    → require(script.Parent.TypeDataLightning)
+    → require(script.Parent.TypeDataModel)
+    → require(script.Parent.TypeDataCameraShake)
+    → require(script.Parent.TypeDataRocks)
+    → require(script.Parent.TypeDataRope)
+
+[ReplicatedStorage] game.ReplicatedStorage.ClientTools.PortalFinderClient
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.SharedDictionaries:WaitForChild("RarityColors")
+    → require(ReplicatedStorage.Packages.maid)
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ClientTools.BossHealthBars
+    → require(ReplicatedStorage:WaitForChild("GameInfo")
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Aura
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Guide
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Artemis
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Kage
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Mooncarver
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Ogge
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Coyote
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Rose
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.GroupReward
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Mimika
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Valen
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.ForgeArchon
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Eclipse
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Zhuge
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Prestige
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+    → require(ReplicatedStorage.GameInfo.PrestigeData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Jetstream
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Supreme
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.AwakenedDevil
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.ShadowMonarch
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.CursedKing
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.GreatMage
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.NekoDance
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.Unrestricted
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.ForgeGuide
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.DialogueData.DevilHunter
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.QuestRewardData)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr
+    → require(script.Shared:WaitForChild("Util")
+    → require(script.Shared.Registry)
+    → require(script.Shared.Dispatcher)
+    → require(script.Initialize)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Initialize
+    → require(script.Parent.CreateGui)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiveClassItemServer
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddRerollsServer
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiveItemServer
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(GameInfo.PotionData)
+    → require(GameInfo.BuffPotionData)
+    → require(GameInfo.ConsumableData)
+    → require(ServerStorage:WaitForChild("Modules")
+    → require(game:GetService("ServerScriptService")
+    → require(ReplicatedStorage.GameInfo.PackageData)
+    → require(GameInfo.QuestItemData)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GlobalEventServer
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.UnjailServer
+    → require(script.Parent.Parent)
+    → require(script.Parent.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.JailServer
+    → require(script.Parent.Parent)
+    → require(script.Parent.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.PrestigeServer
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddStarsServer
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.UnlockTitleServer
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.AddPotionServer
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.PotionData)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.GiftPassServer
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(game.ServerScriptService.Management.MonetizationFunctions)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.SetLevelServer
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.LevelData)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.Cmdr.Server commands.Admin.announceServer
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX
+    → require("@self/mod/logger")
+    → require("@self/mod/utility")
+    → require("@self/mod/attributes")
+    → require("@self/effects/sound")
+    → require("@self/effects/bezier")
+    → require("@self/effects/lightning")
+    → require("@self/effects/camera_shake")
+    → require("@self/effects/shockwave_ring")
+    → require("@self/effects/shockwave_line")
+    → require("@self/effects/shockwave_debris")
+    → require("@self/services/caches")
+    → require("@self/services/effects")
+    → require("@self/services/texture_loader")
+    → require("@self/services/enabled_effects")
+    → require("@self/mod/retime")
+    → require("@self/mod/resize")
+    → require("@self/mod/recolor")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.emitters
+    → require("./effects/beam")
+    → require("./effects/spin")
+    → require("./effects/mesh")
+    → require("./effects/sound")
+    → require("./effects/bezier")
+    → require("./effects/screen")
+    → require("./effects/particle")
+    → require("./effects/lightning")
+    → require("./effects/camera_shake")
+    → require("./effects/tweener")
+    → require("./effects/randomizer")
+    → require("./effects/shockwave_ring")
+    → require("./effects/shockwave_line")
+    → require("./effects/shockwave_debris")
+    → require("./mod/attributes")
+    → require("./types")
+    → require("./mod/utility")
+    → require("./pkg/Promise")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.types
+    → require("./pkg/Promise")
+    → require("./obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.beam
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../mod/common/flipbook")
+    → require("../pkg/Promise")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.bezier
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../mod/common/bezier")
+    → require("../obj/Bezier")
+    → require("../pkg/Promise")
+    → require("../obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.camera_shake
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../pkg/Shake")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.lightning
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../mod/common/bezier")
+    → require("../obj/Bezier")
+    → require("../pkg/Promise")
+    → require("../obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.mesh
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../mod/common/flipbook")
+    → require("../mod/color/Oklab")
+    → require("../pkg/Promise")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.particle
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.randomizer
+    → require("../mod/attributes")
+    → require("../mod/lerp")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../obj/Bezier")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.screen
+    → require("../mod/attributes")
+    → require("../types")
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_debris
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../pkg/Promise")
+    → require("../obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_line
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/logger")
+    → require("../mod/utility")
+    → require("../obj/Bezier")
+    → require("../pkg/Promise")
+    → require("../obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.shockwave_ring
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../pkg/Promise")
+    → require("../obj/ObjectCache")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.sound
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../pkg/Promise")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.spin
+    → require("../mod/attributes")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.effects.tweener
+    → require("../mod/attributes")
+    → require("../mod/lerp")
+    → require("../mod/tween")
+    → require("../types")
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.attributes
+    → require("./logger")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.lerp
+    → require("./color/Oklab")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.resize
+    → require("./utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.retime
+    → require("./utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.shape
+    → require("./utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.tween
+    → require("./logger")
+    → require("./utility")
+    → require("../obj/Bezier")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.utility
+    → require("./attributes")
+    → require("./logger")
+    → require("../pkg/Promise")
+    → require("./common/flipbook")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.color.Oklab
+    → require("../color/sRGB")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.mod.common.bezier
+    → require("../attributes")
+    → require("../shape")
+    → require("../tween")
+    → require("../utility")
+    → require("../color/Oklab")
+    → require("../../obj/Bezier")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.obj.ObjectCache
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.caches
+    → require("../obj/ObjectCache")
+    → require("../mod/utility")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.effects
+    → require("../types")
+    → require("../mod/logger")
+    → require("../mod/utility")
+    → require("../emitters")
+    → require("../pkg/Promise")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.enabled_effects
+    → require("../mod/attributes")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../emitters")
+
+[ReplicatedStorage] game.ReplicatedStorage.ExternalModules.ForgeVFX.services.texture_loader
+    → require("../obj/ObjectCache")
+    → require("../types")
+    → require("../mod/utility")
+    → require("../mod/common/flipbook")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.KeyData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.EnemyResolver
+    → require(ReplicatedStorage.GameInfo.Enemy_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.SummoningData
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.Classes.Class_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.EquipmentTemplates
+    → require(script.Parent.RarityData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ItemDescriptions
+    → require(script_Parent:WaitForChild("PotionData")
+    → require(script_Parent:WaitForChild("BuffPotionData")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.BuffPotionData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.PotionData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ItemShopData
+    → require(script.Parent:WaitForChild("LootChestData")
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.LootChestConstants
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.LootChestData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.BACKUP_DungeonData
+    → require(game:GetService("ReplicatedStorage")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.DungeonData
+    → require(game:GetService("ReplicatedStorage")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.DungeonChestData
+    → require(ReplicatedStorage.GameInfo.RarityData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.QuestData
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.CodesData
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.MonetizationList
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.BattlepassData
+    → require(script.Parent.PackageData)
+    → require(script.Parent.EmoteData)
+    → require(script.Parent.BuffPotionData)
+    → require(script.Parent.PackageData)
+    → require(script.Parent.EmoteData)
+    → require(script.Parent.BuffPotionData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.PackageData
+    → require(script.Parent.CosmeticData)
+    → require(script.Parent.Image_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.QuestRewardData
+    → require(game:GetService("ReplicatedStorage")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ForgeData
+    → require(ReplicatedStorage.GameInfo.EquipmentTemplates)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.EquipmentTemplates)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.EquipmentData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.PassiveBonusData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ItemData
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.DungeonRarityData
+    → require(ReplicatedStorage.GameInfo.RarityData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.LoadoutData
+    → require(script.Parent.CosmeticData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.CraftingData
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("PotionData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("RarityData")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ConsumableData
+    → require(script.Parent:WaitForChild("Image_Data")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.BuffData
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.StatInfoData
+    → require(ReplicatedStorage.GameInfo.EquipmentData)
+    → require(ReplicatedStorage.GameInfo.CombatBaseStats)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.CheckData
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ClientBossModels
+    → require(script.Parent.DungeonData)
+    → require(script.Parent.BossRushData)
+    → require(script.Parent.ChallengeData)
+    → require(script.Parent.RaidData)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ClassObtainment
+    → require(ReplicatedStorage.Classes.Class_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.ItemIndexData
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ConsumableData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("ItemDescriptions")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(ReplicatedStorage:WaitForChild("SharedDictionaries")
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Rolling_Crescent
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Rolling_Crescent_Hold
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Mutilate
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Flickering_Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Shadow Vagrant.Foxclaw
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Ruin_Onslaught
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Ruin_Eruption
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Oathbreaker.Iron_Stride
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Ember_Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Blazing_Reach
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Flame Bastion.Ashen_Onslaught
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Cataclysm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Eruption
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Greatsword.Forge_Strike
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Phantom_Veil
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Maximum_Drive
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Dead_or_Alive
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dark Rider.Death_Parade
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Grim_Advance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Wraith_Dance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Tombstone
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Reaper.Soul_Rend
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Crater_Slam
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Founder.Dead_or_Alive
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Spatial_Cut
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Cross_Cut
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Void_Cleave
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Judgement_Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Hollow_Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Azure Devil.Severance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Slash_Combo
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Cleaving_Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Cursed King.Fuuga
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Air_Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Annihilation_Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Disorder_Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Destruction_Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Chaotic Fist.Frame_Onslaught
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Artemis.Tempest_Strike
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Spatial_Cut
+    → require(script.Parent.Parent["Azure Devil"].Spatial_Cut)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Cross_Cut
+    → require(script.Parent.Parent["Azure Devil"].Cross_Cut)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Void_Cleave
+    → require(script.Parent.Parent["Azure Devil"].Void_Cleave)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Judgement_Rush
+    → require(script.Parent.Parent["Azure Devil"].Judgement_Rush)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Broken Reality.Infinite_Creation
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Fuuka
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Hanafubuki
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Zero.Hanafubuki_Vortex
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Master Ronin.Mikazuki
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Traced_Arsenal_Hold
+    → require(script.Parent.Parent["Broken Reality"].Traced_Arsenal_Hold)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Rain_of_Swords_Hold
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Forge Archon.Infinite_Creation
+    → require(script.Parent.Parent["Broken Reality"].Infinite_Creation)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Shadow_Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Kage.Heart_Stab
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Crimson_Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Gravefall
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Dreadlord.Rose_Cataclysm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Hurricane
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Twelve_Fold_Cleave
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Divider
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Anti Magic.Black_Divider_Final
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Cadence
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Split_Soul
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Playful_Cloud
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Playful_Cloud_Heat
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Instinct
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted.Killer_Instinct_Heat
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Honored One.Red
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Honored One.Blue
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Witch_Twist
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Bullet_Carnival
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Thorn_Recoil
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Witch Gunner.Wicked_Sabbath
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerCadence_Sword
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.KillerInstinct_Spear
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.DomainShatter_Sword
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Unrestricted EX.DomainShatter_Spear
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Mirage_Chase
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Spatial_Divide
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Sky_Crash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Lunar_Phase
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Awakened Devil EX.Lunar_Eclipse
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Blade_Flicker
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Rising_Flicker
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Tempest_Edge
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Boss_Abilities.Jetstream.Jetstream_Sheath
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.GameInfo.Consumables.AspectGem.Definition
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.MutationData)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Cosmetic_Manager
+    → require(ReplicatedStorage.GameInfo.CosmeticData)
+    → require(ReplicatedStorage.Globals.Modules.RigMap)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Weld_Manager
+    → require(script.Parent.RigMap)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Signal
+    → require(script.Connection)
+    → require(script.Parent.Enums)
+    → require(script.Parent.CoroutinePool)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.ErrorEnums
+    → require(script.ErrorEnumClass)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Enums
+    → require(script.CustomEnumClass)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.CoroutinePool
+    → require(script.CoroutineCache)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.ConnectionManager
+    → require(script.Parent.ErrorEnums)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.AttributeObserver
+    → require(script.Parent.Signal)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Weapon_Weld
+    → require(ReplicatedStorage.Weapons.Weapon_Data)
+    → require(ReplicatedStorage.Globals.Modules.RigMap)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.ProjectileUtil
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles
+    → require(script.Graph)
+    → require(script.Range)
+    → require(script.Particles)
+    → require(script.TypeRegistry)
+    → require(script.GetData)
+    → require(script.Transform)
+    → require(script.Update)
+    → require(script.Emit)
+    → require(script.EmitAnimate)
+    → require(script.EmitModel)
+    → require(script.UpdateModel)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.Emit
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Particles)
+    → require(script.Parent.Flipbook)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.EmitAnimate
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Particles)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.EmitModel
+    → require(script.Parent.Graph)
+    → require(script.Parent.Range)
+    → require(script.Parent.Particles)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.Flipbook
+    → require(script.Parent.Range)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.GetData
+    → require(script.Parent.Flipbook)
+    → require(script.Parent.TypeRegistry)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.Particles
+    → require(script.Parent.Range)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.Transform
+    → require(script.Parent.Graph)
+    → require(script.Parent.TypeRegistry)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.TypeRegistry
+    → require(script.TypeData)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.Update
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Globals.Modules.Part_Icles.UpdateModel
+    → require(script.Parent.Graph)
+    → require(script.Parent.PartConstants)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.FastCastRedux
+    → require(script.ActiveCast)
+    → require(script.Signal)
+    → require(script.Table)
+    → require(script.TypeDefinitions)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.FastCastRedux.Signal
+    → require(script.Parent.TypeDefinitions)
+    → require(script.Parent.Table)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.FastCastRedux.ActiveCast
+    → require(script.Parent.TypeDefinitions)
+    → require(script.Parent.TypeMarshaller)
+    → require(script.Parent.Table)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.StatusEffectScheduler
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game.ServerScriptService.Management.Classes.NPC)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.CameraShake
+    → require(ReplicatedStorage:WaitForChild("Packages")
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.DropSpawner
+    → require(Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.SharedUtils
+    → require(ReplicatedStorage.GameInfo.EnemyResolver)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.MutationData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+    → require(ReplicatedStorage.Modules.DamageDisplay)
+    → require(ReplicatedStorage.Globals.Modules.FX_Broadcaster)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.PhantomAttack
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.RarityGradient
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.ForgeVFXUtil
+    → require(ReplicatedStorage.ExternalModules.ForgeVFX)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.DamageDisplay
+    → require(ReplicatedStorage.Modules.ObjectCache)
+    → require(ReplicatedStorage.GameInfo.DamageNumberData)
+
+[ReplicatedStorage] game.ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.ProfileStore
+    → require(script.Parent._Index["aykut92_profilestore@1.0.21"].profilestore)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Promise
+    → require(script.Parent._Index["evaera_promise@4.0.0"].promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.maid
+    → require(script.Parent._Index["devsparkle_maid@2.1.0"].maid)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.TableUtil
+    → require(script.Parent._Index["sleitnick_table-util@1.2.1"]["table-util"])
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Signal
+    → require(script.Parent._Index["sleitnick_signal@1.5.0"].signal)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Replica
+    → require(script.Parent._Index["aykut92_replica@0.1.7"].replica)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Loader
+    → require(script.Parent._Index["sleitnick_loader@2.0.0"].loader)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Cmdr
+    → require(script.Parent._Index["evaera_cmdr@1.12.0"].cmdr)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Iris
+    → require(script.Parent._Index["michael-48_iris@2.3.1"].iris)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Janitor
+    → require(script.Parent._Index["howmanysmall_janitor@1.18.3"].janitor)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages.Knit
+    → require(script.Parent._Index["sleitnick_knit@1.7.0"].knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_signal@1.5.0.signal.init.spec
+    → require(script.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_table-util@1.2.1.table-util.init.spec
+    → require(script.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_option@1.0.5.option.init.spec
+    → require(script.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_signal@2.0.3.signal.init.test
+    → require(ServerScriptService.TestRunner.Test)
+    → require(script.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_promise@4.0.0.promise.init.spec
+    → require(script.Parent)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_loader@2.0.0.loader
+    → require(child)
+    → require(descendant)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica
+    → require(script.server)
+    → require(script.client)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.server
+    → require(Shared.RateLimit)
+    → require(Shared.Remote)
+    → require(Shared.Signal)
+    → require(Shared.Maid)
+    → require(p28)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.aykut92_replica@0.1.7.replica.client
+    → require(Shared.Remote)
+    → require(Shared.Signal)
+    → require(Shared.Maid)
+    → require(p22)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr
+    → require(script.Shared:WaitForChild("Util")
+    → require(script.Shared.Registry)
+    → require(script.Shared.Dispatcher)
+    → require(script.Initialize)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Initialize
+    → require(script.Parent.CreateGui)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient
+    → require(Shared:WaitForChild("Util")
+    → require(Shared.Registry)
+    → require(Shared.Dispatcher)
+    → require(script.CmdrInterface)
+    → require(script.DefaultEventHandlers)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.DefaultEventHandlers
+    → require(script.Parent.CmdrInterface.Window)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.CmdrClient.CmdrInterface
+    → require(script:WaitForChild("Window")
+    → require(script:WaitForChild("AutoComplete")
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Registry
+    → require(script.Parent.Util)
+    → require(child)
+    → require(p21)
+    → require(p22)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Dispatcher
+    → require(script.Parent.Util)
+    → require(script.Parent.Command)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Command
+    → require(script.Parent.Argument)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.Shared.Argument
+    → require(script.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Vector
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.UserInput
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.URL
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Type
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Team
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.StoredKey
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Primitives
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.PlayerId
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Player
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Duration
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Command
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.Color3
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.evaera_cmdr@1.12.0.cmdr.BuiltInTypes.BrickColor
+    → require(script.Parent.Parent.Shared.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris
+    → require(script.Types)
+    → require(script.Internal)
+    → require(script.config)
+    → require(script.demoWindow)
+    → require(script.widgets)
+    → require(script.API)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets
+    → require(script.Parent.Types)
+    → require(script.Root)
+    → require(script.Window)
+    → require(script.Menu)
+    → require(script.Format)
+    → require(script.Text)
+    → require(script.Button)
+    → require(script.Checkbox)
+    → require(script.RadioButton)
+    → require(script.Image)
+    → require(script.Tree)
+    → require(script.Input)
+    → require(script.Combo)
+    → require(script.Plot)
+    → require(script.Table)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Window
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Tree
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Text
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Table
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Root
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.RadioButton
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Plot
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Menu
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Input
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Image
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Format
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Combo
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Checkbox
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.widgets.Button
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.demoWindow
+    → require(script.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.Internal
+    → require(script.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.michael-48_iris@2.3.1.iris.API
+    → require(script.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit
+    → require(script.KnitServer)
+    → require(script.KnitClient)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.knit.KnitClient
+    → require(v3.Util.Promise)
+    → require(v3.Util.Comm)
+    → require(child)
+    → require(descendant)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.Promise
+    → require(script.Parent.Parent["evaera_promise@4.0.0"].promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_knit@1.7.0.Comm
+    → require(script.Parent.Parent["sleitnick_comm@1.0.1"].comm)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm
+    → require(script.Server)
+    → require(script.Client)
+    → require(script.Server.ServerComm)
+    → require(script.Client.ClientComm)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Util
+    → require(script.Parent.Parent.Option)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server
+    → require(script.RemoteProperty)
+    → require(script.RemoteSignal)
+    → require(script.Parent.Types)
+    → require(script.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.ServerComm
+    → require(script.Parent)
+    → require(script.Parent.Parent.Types)
+    → require(script.Parent.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.RemoteSignal
+    → require(script.Parent.Parent.Parent.Signal)
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Server.RemoteProperty
+    → require(script.Parent.RemoteSignal)
+    → require(script.Parent.Parent.Types)
+    → require(script.Parent.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client
+    → require(script.Parent.Util)
+    → require(script.Parent.Types)
+    → require(script.Parent.Parent.Promise)
+    → require(script.ClientRemoteSignal)
+    → require(script.ClientRemoteProperty)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientRemoteSignal
+    → require(script.Parent.Parent.Parent.Signal)
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientRemoteProperty
+    → require(script.Parent.Parent.Parent.Promise)
+    → require(script.Parent.Parent.Parent.Signal)
+    → require(script.Parent.ClientRemoteSignal)
+    → require(script.Parent.Parent.Types)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.comm.Client.ClientComm
+    → require(script.Parent)
+    → require(script.Parent.Parent.Types)
+    → require(script.Parent.Parent.Util)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Signal
+    → require(script.Parent.Parent["sleitnick_signal@2.0.3"].signal)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Promise
+    → require(script.Parent.Parent["evaera_promise@4.0.0"].promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.sleitnick_comm@1.0.1.Option
+    → require(script.Parent.Parent["sleitnick_option@1.0.5"].option)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_typed-promise@4.0.6.typed-promise
+    → require(script.Parent.Promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_typed-promise@4.0.6.Promise
+    → require(script.Parent.Parent["evaera_promise@4.0.0"].promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor
+    → require(script.FastDefer)
+    → require(script.Promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.Promise
+    → require(Parent.Promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.janitor.__tests__.Janitor.test
+    → require(script.Parent.Parent.Parent.DevPackages.JestGlobals)
+    → require(script.Parent.Parent)
+    → require(script.Parent.Parent.Promise)
+
+[ReplicatedStorage] game.ReplicatedStorage.Packages._Index.howmanysmall_janitor@1.18.3.Promise
+    → require(script.Parent.Parent["howmanysmall_typed-promise@4.0.6"]["typed-promise"])
+
+[ReplicatedStorage] game.ReplicatedStorage.Player.Modules.Weapon_Input
+    → require(ReplicatedStorage:WaitForChild("Packages")
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.Knit)
+
+[ReplicatedStorage] game.ReplicatedStorage.Player.Modules.Weapon_Manager
+    → require(ReplicatedStorage.Weapons.Weapon_Data)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.maid)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game.ServerScriptService.Management.Classes.NPC)
+    → require(ReplicatedStorage.Weapons.Weapon_Traits.Trait_Data)
+    → require(ReplicatedStorage.GameInfo.UpgradeData)
+    → require(game:GetService("ServerScriptService")
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skills.Somersault Crash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game:GetService("ServerScriptService")
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skills.Thousandfold Thrust
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game:GetService("ServerScriptService")
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skills.Pillar of Heaven
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game:GetService("ServerScriptService")
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skills.Cyclone Sweep
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game:GetService("ServerScriptService")
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Mastery_Passives.Body_Outside_the_Body
+    → require(ReplicatedStorage.Modules.RigUtil)
+    → require(ReplicatedStorage.Modules.PhantomAttack)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Somersault_Crash
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Thousandfold_Thrust
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Pillar_of_Heaven
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Founder.Skill_Modules.Cyclone_Sweep
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Archer.Skills.Zephyr Barrage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Archer.Skills.Luthiens Rain
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Archer.Skills.Radiant Volley
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Archer.Skills.Divine Volley
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skills.Water Wheel
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skills.Surface Slash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skills.Blessed Rain
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skills.Constant Flux
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skills.Flowing Dance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Water_Wheel
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Surface_Slash
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Flowing_Dance
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Flowing_Dance_VAR
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Constant_Flux
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Blessed_Rain
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Streamline.Skill_Modules.Constant_Flux_VAR
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skills.Cleave Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skills.Slash Combo
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skills.Cleaving Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skills.Fuuga
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Malevolent_Sanctum
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Cleave_Rush
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Slash_Combo
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Cleaving_Rush
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed King.Skill_Modules.Fuuga
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skills.Black Flash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skills.Tri-Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skills.Triple Kick
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skills.Black Flash Combo
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Mastery_Passives.Flash_Proc
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Tri_Step
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Triple_Kick
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Black_Flash_Combo
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Divergent.Skill_Modules.Black_Flash
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+    → require(ReplicatedStorage.Globals.Modules.RigMap)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Demonbane.Skills.Zoltraak
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Demonbane.Skills.Vollzanbel
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Demonbane.Skills.Gravity Well
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Demonbane.Skills.Catastravia
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Hurricane
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Globals.Modules.ProjectileUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Anti Magic.Skills.Twelve-Fold Cleave
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Divider
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Anti Magic.Skills.Black Divider Final
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Globals.Modules.ProjectileUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skills.Flash Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skills.Cero Blast
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skills.Sonido Barrage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skills.Javelin Toss
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Flash_Step
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Cero_Blast
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Sonido_Barrage
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Vacio.Skill_Modules.Javelin_Toss
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skills.Blade Flicker
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skills.Rising Flicker
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skills.Jetstream Sheath
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skills.Tempest Edge
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Blade_Flicker
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Rising_Flicker
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Jetstream_Sheath
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Jetstream.Skill_Modules.Tempest_Edge
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Flickering Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Foxclaw
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Mutilate
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Rolling Crescent
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skills.Sovereign of Shadows
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Flickering_Step
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Rolling_Crescent
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Foxclaw
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Mutilate
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shadow Vagrant.Skill_Modules.Sovereign_of_Shadows
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Greatsword.Skills.Cataclysm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Greatsword.Skills.Skull Splitter
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Greatsword.Skills.Great Chase
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Oathbreaker.Skills.Ruin Eruption
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Bowman.Skills.Deadeye
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Azure Devil.Skills.Judgement Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Azure Devil.Skills.Void Cleave
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Azure Devil.Skills.Cross Cut
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Azure Devil.Skills.Spatial Cut
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Azure Devil.Mastery_Passives.Phantom_Strikes
+    → require(ReplicatedStorage.Modules.PhantomAttack)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skills.Killer Cadence
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skills.Killer Instinct
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skills.Domain Shatter
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Tool_Swap
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Killer_Cadence
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Killer_Instinct
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Unrestricted.Skill_Modules.Domain_Shatter
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skills.Severance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skills.Hollow Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skills.Cursed Speech
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skills.Cursed Love
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Hollow_Rush
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Severance
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Cursed_Speech
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Cursed Child.Skill_Modules.Cursed_Love
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Mirage Chase
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Spatial Divide
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Sky Crash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Lunar Phase
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skills.Lunar Eclipse
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Mastery_Passives.Summoned_Sword
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Mirage_Chase
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Spatial_Divide_Tap
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Spatial_Divide_Hold
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Sky_Crash_Ground
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Sky_Crash_Air
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Lunar_Phase
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Awakened Devil EX.Skill_Modules.Lunar_Eclipse
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Boxer.Skills.Quick Jab
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Boxer.Skills.Gazelle Sweep
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Boxer.Skills.Wolfs Fang
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skills.Blue
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skills.Red
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skills.Hollow Purple
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skills.Infinity
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+    → require(ReplicatedStorage.Globals.Modules.RigMap)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skills.Infinite Void
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Blue
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Red
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Hollow_Purple
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Honored One.Skill_Modules.Infinite_Void
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Ronin.Mastery_Passives.Dodge_Blossom
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Dreadlord.Skills.Crimson Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Dreadlord.Skills.Rose Cataclysm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Dreadlord.Skills.Gravefall
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shinobi.Skills.Kurogiri
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shinobi.Skills.Guillotine Drop
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shinobi.Skills.Oni Rend
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Shinobi.Skills.Flash Rend
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Prisma.Skills.Fang Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Prisma.Skills.Rake Barrage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Prisma.Skills.Prism Ruin
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Framebreaker.Mastery_Passives.Projection_Retaliation
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Artemis.Skills.Moonfall
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Artemis.Skills.Tempest Strike
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Coyote.Skills.Triple Fang
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Coyote.Skills.Apex Predator
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skills.Fuuka
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skills.Kazahana
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skills.Fuyubachi
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skills.Hanafubuki
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skill_Modules.Hanafubuki
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Zero.Skill_Modules.Hanafubuki_Vortex
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Mirage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Volley
+    → require(ReplicatedStorage.Globals.Modules.ProjectileUtil)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Severance
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Wanderer.Skills.Ink Reckoning
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Air Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Annihilation Type
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.Chaotic Blue Silver Afterglow
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Chaotic Fist.Skills.8 Layered Demon Core
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Chaotic Fist.Mastery_Passives.Chaotic_Counter
+    → require(v4)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skills.Twin Projection
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skills.Hrunting
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skills.Supreme Cell Blades
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Twin_Projection
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Crane_Wing
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Hrunting
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Forge Archon.Skill_Modules.Supreme_Cell_Blades
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Assassin.Skills.Cross Slash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Assassin.Skills.Phantom Swarm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Rushing Edge
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Rising Tempest
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Spell Breaker.Skills.Hypersonic Rush
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Kage.Skills.Shadow Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Kage.Skills.Heart Stab
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Kage.Mastery_Passives.Shadow_Pursuit
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Mori.Skills.Crashing Talon
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Mori.Skills.Renewal Flurry
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Mori.Skills.Twin Dragons
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Mori.Skills.Hundred Kicks
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skills.Eclipse Draw
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skills.Umbral Rite
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skills.Nightfall Onslaught
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skills.Sunless Sovereign
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Eclipse_Draw
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Umbral_Rite
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Nightfall_Onslaught
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sunless.Skill_Modules.Sunless_Sovereign
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skills.Flame Step
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skills.Crescent Ember
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skills.Inferno Drill
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skills.Ascetic Rite
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Flame_Step
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Crescent_Ember
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Inferno_Drill
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hollow.Skill_Modules.Ascetic_Rite
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hitman.Skills.Frag Out
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RigUtil)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hitman.Skills.Stampede
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hitman.Skills.Death Sentence
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hitman.Skills.Slash Storm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Hitman.Skills.Bullet Typhoon
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Crossfire
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Showstopper
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Rainstorm
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sinister Trigger.Skills.Hysteria
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ServerScriptService.Management.Modules.SkillRuntime)
+
+[ReplicatedStorage] game.ReplicatedStorage.Classes.Sinister Trigger.Mastery_Passives.Deadeye
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Assets.UI.Purchase Pending.Frame.gif.LocalScript
+    → require(script.GIF)
+
+[ReplicatedStorage] game.ReplicatedStorage.Assets.Scripts.Animate
+    → require(ReplicatedStorage:WaitForChild("GameInfo")
+
+[ReplicatedStorage] game.ReplicatedStorage.Assets.Boss_Sets.Basic.Skill_Modules.M1_ForgeVFX
+    → require(ReplicatedStorage.Modules.ClassVFX.ForgeChoreographer)
+
+[ReplicatedStorage] game.ReplicatedStorage.Enemies.Modules.Enemy_Manager
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Data)
+
+[ReplicatedStorage] game.ReplicatedStorage.Mutations.Blaze.Definition
+    → require(ReplicatedStorage.Modules.StatusEffectScheduler)
+
+[ReplicatedStorage] game.ReplicatedStorage.Mutations.Verdant.Definition
+    → require(ReplicatedStorage.Modules.StatusEffectScheduler)
+
+[ReplicatedStorage] game.ReplicatedStorage.Mutations.Sanguine.Definition
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Data
+    → require(ReplicatedStorage.Weapons.Weapon_Callbacks)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Data
+    → require(game.ReplicatedStorage.Packages.Knit)
+    → require(v55)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Effects.Momentum
+    → require(game.ReplicatedStorage.Modules.SharedUtils)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Traits.Trait_Effects.Venomous
+    → require(game.ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.StatusEffectScheduler)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Wicked Flair
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Slide Shootin
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Tenka Gyakusei
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Shadow Dash
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Magic Barrage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Coyote Barrage
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Flurry
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Judgement
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Arrow Rain
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Rolling Slice
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[ReplicatedStorage] game.ReplicatedStorage.Weapons.Weapon_Skills.Tsujigiri
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Enemies.Modules.Enemy_Manager)
+
+[StarterGui] game.StarterGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.HERO_LOADER
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterGui] game.StarterGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.VIP.List.CharacterTemplate.ViewportFrame.HERO_LOADER
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterGui] game.StarterGui.Main.Frames.Notes_OLD.Body.ScrollingFrame.OLD.PowerfulStarterPack.List.CharacterTemplate.ViewportFrame.HERO_LOADER
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.CameraClient
+    → require(ReplicatedStorage.Globals.Modules.Enums)
+    → require(ReplicatedStorage.Globals.Modules.ConnectionManager)
+    → require(ReplicatedStorage.Modules.Spring)
+    → require(script.Parent:WaitForChild("PlayerModule")
+    → require(ReplicatedStorage:WaitForChild("Packages")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client
+    → require(script.Gameplay.Actions)
+    → require(script_Controllers.InputController)
+    → require(script_Controllers.Registry)
+    → require(Packages.Replica)
+    → require(Packages.Knit)
+    → require(ReplicatedStorage:WaitForChild("Modules")
+    → require(child)
+    → require(child)
+    → require(ReplicatedStorage:WaitForChild("CmdrClient")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Inventory
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(GameInfo:WaitForChild("GearScoreData")
+    → require(GameInfo:WaitForChild("EquipmentData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.Parent.ClientUtils.SelectionHighlight)
+    → require(script.Parent.Parent.ClientUtils.CosmeticViewport)
+    → require(script.Parent.InventoryLoadouts)
+    → require(script.Parent.InventoryItems)
+    → require(script.Parent.InventoryItemInfo)
+    → require(script.Parent.InventoryCharacterPreview)
+    → require(script.Parent.InventoryStatUpgrade)
+    → require(script.Parent.InventoryCosmeticsList)
+    → require(script.Parent.InventoryStatInfo)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Storage
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(GameInfo:WaitForChild("BankData")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.ClientUtils.EquipmentStatLines)
+    → require(script.Parent.Parent.ClientUtils.TabStyles)
+    → require(script.Parent.InventoryItems)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Currency
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Top
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Keybinds
+    → require(Packages:WaitForChild("Knit")
+    → require(ReplicatedStorage:WaitForChild("Player")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Left
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.ItemShop)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.BuffsDisplay
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("PotionData")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("ItemDescriptions")
+    → require(GameInfo:WaitForChild("BuffData")
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(script.Parent.Parent.Controllers.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemShop
+    → require(GameInfo:WaitForChild("EquipmentShopData")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.ClientUtils.EquipmentStatLines)
+    → require(script.Parent.Parent.ClientUtils.TabStyles)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Shop
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(ReplicatedStorage.Globals.Modules.Cosmetic_Manager)
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("MonetizationList")
+    → require(GameInfo:WaitForChild("ChestData")
+    → require(GameInfo:WaitForChild("LootChestData")
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.Globals.Modules.Weld_Manager)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Packages.maid)
+    → require(script.Parent.Parent.Controllers.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Onboarding
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Packages.maid)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.BackgroundMusic
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.RaidData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.AchievementController
+    → require(ReplicatedStorage.GameInfo.AchievementData)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.TitleIndex
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(ReplicatedStorage.GameInfo.TitleData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Codes
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(ReplicatedStorage.GameInfo.CheckData)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Quests
+    → require(GameInfo:WaitForChild("QuestData")
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ActionsHUD
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage:WaitForChild("Packages")
+    → require(script.Parent.Parent.ClientUtils.CooldownOverlay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.PotionController
+    → require(ReplicatedStorage.GameInfo.PotionData)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.ClientUtils.CooldownOverlay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.PassiveBonusDisplay
+    → require(GameInfo:WaitForChild("PassiveBonusData")
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(script.Parent.Parent.Controllers.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Stats
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.LevelData)
+    → require(ReplicatedStorage.GameInfo.PrestigeData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ClassInfo
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(ReplicatedStorage.GameInfo.LevelData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.ClassMasteryData)
+    → require(ReplicatedStorage.GameInfo.PrestigeData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.GameInfo.ClassObtainment)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.PartyFrame
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(script.Parent.Parent.ClientUtils.spr)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemNotification
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(GameInfo:WaitForChild("KeyData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("ConsumableData")
+    → require(GameInfo:WaitForChild("MutationData")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(ReplicatedStorage:WaitForChild("SharedDictionaries")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Battlepass
+    → require(GameInfo:WaitForChild("BattlepassData")
+    → require(GameInfo:WaitForChild("EmoteData")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.StarBurst)
+    → require(ReplicatedStorage.Globals.Modules.Cosmetic_Manager)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("ItemData")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.StarsShop
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("EmoteData")
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(ReplicatedStorage.Globals.Modules.Cosmetic_Manager)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ForgeController
+    → require(ReplicatedStorage.GameInfo.EquipmentData)
+    → require(ReplicatedStorage.GameInfo.EquipmentTemplates)
+    → require(ReplicatedStorage.GameInfo.ForgeData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.Parent.ClientUtils.ForgeAnimator)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.PatchNotes
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.PatchNoteData)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.ClientUtils.RewardCardRender)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryLoadouts
+    → require(GameInfo:WaitForChild("LoadoutData")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("EquipmentData")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.ClientUtils.CosmeticViewport)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryItems
+    → require(GameInfo:WaitForChild("PotionData")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("LootChestData")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("ItemDescriptions")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("KeyData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("RarityData")
+    → require(GameInfo:WaitForChild("ConsumableData")
+    → require(script.Parent.Parent.ClientUtils.CosmeticViewport)
+    → require(script.Parent.Parent.ClientUtils.EquipmentStatLines)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryItemInfo
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(script.Parent.Parent.ClientUtils.EquipmentStatLines)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryCharacterPreview
+    → require(ReplicatedStorage.GameInfo.CosmeticData)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Globals.Modules.Cosmetic_Manager)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(script.Parent.Parent.ClientUtils.CosmeticViewport)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryStatUpgrade
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.StatData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.CraftingController
+    → require(ReplicatedStorage.GameInfo.CraftingData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(script.Parent.Parent.Controllers.Registry)
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.ItemIndex)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryCosmeticsList
+    → require(ReplicatedStorage.GameInfo.CosmeticData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.Right
+    → require(script.Parent.Parent.Controllers.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.UIPrewarm
+    → require(ReplicatedStorage.GameInfo.PlaceConfig)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.InventoryStatInfo
+    → require(ReplicatedStorage.GameInfo.StatInfoData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.EmoteWheel
+    → require(ReplicatedStorage:WaitForChild("Packages")
+    → require(ReplicatedStorage:WaitForChild("GameInfo")
+    → require(PlayerScripts:WaitForChild("PlayerModule")
+    → require(PlayerScripts:WaitForChild("PlayerModule")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.MenuButtons
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(script.Parent.Parent.Controllers.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.UI.ItemIndex
+    → require(script.Parent.Parent.Controllers.UIController)
+    → require(ReplicatedStorage.GameInfo.ItemIndexData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Gameplay.Interface
+    → require(child)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Gameplay.Interface.Template
+    → require(ReplicatedStorage.Packages.Janitor)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SoundController
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.NotificationController
+    → require(game.ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(game.ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.UIController
+    → require(script.Parent.Parent.ClientUtils.spr)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.MarketplaceController
+    → require(game.ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DropController
+    → require(Packages.Knit)
+    → require(ReplicatedStorage:WaitForChild("Modules")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SettingsController
+    → require(Packages.Knit)
+    → require(ReplicatedStorage:WaitForChild("GameInfo")
+    → require(script.Parent.Registry)
+    → require(script.Parent.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonHUDController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(GameInfo:WaitForChild("ColorData")
+    → require(ReplicatedStorage.ClientTools.BossHealthBars)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.NoticeController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.StatController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.HealthbarController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.GearScoreData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LootChestController
+    → require(Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.LootChestData)
+    → require(ReplicatedStorage.Modules.ViewportModel)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonChestController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Registry)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(GameInfo:WaitForChild("KeyData")
+    → require(GameInfo:WaitForChild("RarityData")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonLootController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Registry)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DialogueController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.DialogModule)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.WarningController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonSelectController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.UIController)
+    → require(script.Parent.Parent.UI.ItemIndex)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.EquipmentTemplates)
+    → require(ReplicatedStorage.GameInfo.ItemData)
+    → require(ReplicatedStorage.GameInfo.LevelData)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.GameInfo.PackageData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.IdentifierController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.UIController)
+    → require(script.Parent.Registry)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("EquipmentData")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(GameInfo:WaitForChild("RarityData")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SummoningController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.SummoningData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.GameInfo.MutationData)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+    → require(ReplicatedStorage.Globals.Modules.Weld_Manager)
+    → require(script.Parent.Registry)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(script.Parent.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonNotificationController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.ClassMasteryData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LightingController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.RaidData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BattlepassController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.BattlepassData)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.PortalController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.LoadingOverlay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushSelectController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.UIController)
+    → require(script.Parent.Registry)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.UI.ItemIndex)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.BossRushData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.ItemData)
+    → require(ReplicatedStorage.GameInfo.ClassItemData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.GameInfo.PackageData)
+    → require(ReplicatedStorage.GameInfo.EnemyResolver)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushHUDController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.BossHealthBars)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.InputBindingController
+    → require(Packages:WaitForChild("Knit")
+    → require(ReplicatedStorage:WaitForChild("Player")
+    → require(script.Parent.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.MenuHotkeyController
+    → require(Packages:WaitForChild("Knit")
+    → require(script.Parent.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossRushSpectateController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RewardRevealController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.ClientUtils.RewardCardRender)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.AreaWarpController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.LoadingOverlay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.HideUIController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.UIAnimationController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.UIAnimationConfig)
+    → require(script.Parent.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.PlayerListController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonInviteController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BossLootChestController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.LootChestData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.EquipmentTemplates)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.VIPChatTagController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.TitleData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChestSelectionController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.Parent.ClientUtils.RewardCardRender)
+    → require(script.Parent.Parent.ClientUtils.EquipmentStatLines)
+    → require(script.Parent.Registry)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.BoostSelectionController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.SurviveRoomController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EmoteFXController
+    → require(ReplicatedStorage:WaitForChild("Packages")
+    → require(ReplicatedStorage:WaitForChild("GameInfo")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EndlessController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.LoadingOverlay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeSpectateController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.MonetizationList)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeHUDController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.BossHealthBars)
+    → require(ReplicatedStorage.ClientTools.LoadingOverlay)
+    → require(ReplicatedStorage.GameInfo.DungeonData)
+    → require(ReplicatedStorage.GameInfo.ChallengeData)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DebugBridgeController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.DungeonOnboardingPointer
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.ChallengeDungeonController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.UIController)
+    → require(script.Parent.Registry)
+    → require(script.Parent.Parent.ClientUtils.RevealCascade)
+    → require(script.Parent.Parent.UI.ItemIndex)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.ChallengeData)
+    → require(ReplicatedStorage.GameInfo.ChallengeRewardData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.ItemData)
+    → require(ReplicatedStorage.GameInfo.ClassItemData)
+    → require(ReplicatedStorage.GameInfo.RarityData)
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.GameInfo.Image_Data)
+    → require(ReplicatedStorage.GameInfo.PackageData)
+    → require(ReplicatedStorage.GameInfo.EnemyResolver)
+    → require(ReplicatedStorage.GameInfo.QuestItemData)
+    → require(ReplicatedStorage.GameInfo.ConsumableData)
+    → require(ReplicatedStorage.GameInfo.BuffPotionData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.AccessGateController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.LobbyLightingController
+    → require(ReplicatedStorage:WaitForChild("Packages")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.EventRsvpController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidSelectController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(script.Parent.UIController)
+    → require(script.Parent.Registry)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.RaidData)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.GameInfo.EnemyResolver)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidHUDController
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.ClientTools.BossHealthBars)
+    → require(ReplicatedStorage.ClientTools.LoadingOverlay)
+    → require(ReplicatedStorage.GameInfo.RaidData)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Controllers.RaidSpectateController
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ButtonHover
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ClickSound
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.FloorItem
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.Prompts
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.Jail
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ProductButton
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(GameInfo:WaitForChild("MonetizationList")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ToolClientComp
+    → require(ReplicatedStorage.ClientTools.ToolClient)
+    → require(child)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.CurrencyButton
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ChestSpinner
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage.GameInfo.ChestData)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.GameInfo.LootChestData)
+    → require(script.Parent.Parent.Controllers.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.CombatFeedbackHandler
+    → require(ReplicatedStorage.Modules.CameraShake)
+    → require(ReplicatedStorage.Modules.DamageDisplay)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.PhantomAttackFX
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Classes.Class_Data)
+    → require(ReplicatedStorage.Globals.Modules.Weld_Manager)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.ClassEffectRenderer
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.DamageDisplayHandler
+    → require(ReplicatedStorage.Modules.DamageDisplay)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.SpellBurstFX
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.Components.AspectBurstFX
+    → require(ReplicatedStorage.Modules.ForgeVFXUtil)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ButtonAnimations
+    → require(script_Parent.spr)
+    → require(Modules.Utils.playSound)
+    → require(Controllers.UIController)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ShowViewport
+    → require(script.ViewportModel)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.RewardCardRender
+    → require(GameInfo:WaitForChild("EquipmentTemplates")
+    → require(GameInfo:WaitForChild("BuffPotionData")
+    → require(GameInfo:WaitForChild("CosmeticData")
+    → require(GameInfo:WaitForChild("ClassItemData")
+    → require(GameInfo:WaitForChild("PackageData")
+    → require(GameInfo:WaitForChild("QuestItemData")
+    → require(GameInfo:WaitForChild("ConsumableData")
+    → require(GameInfo:WaitForChild("ItemData")
+    → require(GameInfo:WaitForChild("Image_Data")
+    → require(ReplicatedStorage.SharedDictionaries.RarityColors)
+    → require(ReplicatedStorage.Modules.SharedUtils)
+    → require(ReplicatedStorage.Modules.RarityGradient)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.CosmeticViewport
+    → require(ReplicatedStorage.GameInfo.CosmeticData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.ForgeAnimator
+    → require(ReplicatedStorage.Packages.Knit)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Client.ClientUtils.EquipmentStatLines
+    → require(ReplicatedStorage.GameInfo.EquipmentData)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.CooldownTracker_Init
+    → require(script.CooldownTracker)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel
+    → require(script.Packages:WaitForChild("topbarplus")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages.topbarplus
+    → require(script.Parent._Index["legitatx_topbarplus@3.0.5"].topbarplus)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus
+    → require(u1.Reference)
+    → require(v2)
+    → require(u1.Packages.GoodSignal)
+    → require(u1.Packages.Janitor)
+    → require(u1.Utility)
+    → require(u1.Attribute)
+    → require(u1.Features.Themes)
+    → require(u1.Features.Gamepad)
+    → require(u1.Features.Overflow)
+    → require(Themes2.Default)
+    → require(Elements.Container)
+    → require(Themes2.Classic)
+    → require(Elements.Widget)
+    → require(Elements.Notice)
+    → require(Elements.Caption)
+    → require(Elements.Dropdown)
+    → require(Elements.Indicator)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Attribute
+    → require(script.Parent.VERSION)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Utility
+    → require(script.Parent.Packages.Janitor)
+    → require(u27.iconModule)
+    → require(u55.iconModule)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Caption
+    → require(u1.iconModule)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Dropdown
+    → require(u1.iconModule)
+    → require(script.Parent.Parent.Utility)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Menu
+    → require(u1.iconModule)
+    → require(script.Parent.Parent.Features.Themes)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Notice
+    → require(Packages.Janitor)
+    → require(Packages.GoodSignal)
+    → require(Parent.Utility)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Elements.Widget
+    → require(script.Parent.Menu)
+    → require(script.Parent.Parent.Features.Gamepad)
+    → require(script.Parent.Parent.Utility)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Gamepad
+    → require(script.Parent.Parent.Utility)
+    → require(script.Parent.Parent.Elements.Selection)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Overflow
+    → require(script.Parent.Parent.Utility)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Features.Themes
+    → require(script.Parent.Parent.Utility)
+    → require(script.Default)
+    → require(p63)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Satchel.Satchel.Packages._Index.legitatx_topbarplus@3.0.5.topbarplus.Packages.Janitor
+    → require(game:GetService("ReplicatedStorage")
+    → require(game:GetService("ReplicatedStorage")
+    → require(game:GetService("ReplicatedStorage")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.StrokeAdjuster
+    → require(script.UIStrokeAdjuster)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.Weapon_Input_Sink
+    → require(ReplicatedStorage:WaitForChild("Player")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.FX_Listener
+    → require(ReplicatedStorage.Packages.Knit)
+    → require(ReplicatedStorage:WaitForChild("Globals")
+    → require(ReplicatedStorage:WaitForChild("Modules")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerScriptsLoader
+    → require(script.Parent:WaitForChild("PlayerModule")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule
+    → require(script:WaitForChild("CameraModule")
+    → require(script:WaitForChild("ControlModule")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule
+    → require(script:WaitForChild("Keyboard")
+    → require(script:WaitForChild("Gamepad")
+    → require(script:WaitForChild("DynamicThumbstick")
+    → require(script:WaitForChild("TouchThumbstick")
+    → require(script:WaitForChild("ClickToMoveController")
+    → require(script:WaitForChild("TouchJump")
+    → require(script:WaitForChild("VehicleController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.AvatarAbilitiesInterface
+    → require(CommonUtils:WaitForChild("FlagUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.PathDisplay
+    → require(CommonUtils:WaitForChild("FlagUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveDisplay
+    → require(CommonUtils:WaitForChild("FlagUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.BaseCharacterController
+    → require(CommonUtils:WaitForChild("ConnectionUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Gamepad
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchJump
+    → require(CommonUtils:WaitForChild("ConnectionUtil")
+    → require(CommonUtils:WaitForChild("CharacterUtil")
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("AvatarAbilitiesInterface")
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.Keyboard
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.VRNavigation
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(PathDisplay)
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.TouchThumbstick
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("AvatarAbilitiesInterface")
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.ClickToMoveController
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("ClickToMoveDisplay")
+    → require(script.Parent:WaitForChild("Keyboard")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.ControlModule.DynamicThumbstick
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("AvatarAbilitiesInterface")
+    → require(script.Parent:WaitForChild("BaseCharacterController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule
+    → require(CommonUtils:WaitForChild("ConnectionUtil")
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script:WaitForChild("CameraUtils")
+    → require(script:WaitForChild("CameraInput")
+    → require(script:WaitForChild("ClassicCamera")
+    → require(script:WaitForChild("OrbitalCamera")
+    → require(script:WaitForChild("LegacyCamera")
+    → require(script:WaitForChild("VehicleCamera")
+    → require(script:WaitForChild("VRCamera")
+    → require(script:WaitForChild("VRVehicleCamera")
+    → require(script:WaitForChild("Invisicam")
+    → require(script:WaitForChild("Poppercam")
+    → require(script:WaitForChild("TransparencyController")
+    → require(script:WaitForChild("MouseLockController")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.OrbitalCamera
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("BaseCamera")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController
+    → require(script:WaitForChild("Popper")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ZoomController.Popper
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(CommonUtils:WaitForChild("CameraWrapper")
+    → require(CommonUtils:WaitForChild("ConnectionUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.TransparencyController
+    → require(script.Parent:WaitForChild("CameraUtils")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.MouseLockController
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("CameraUtils")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraToggleStateController
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUI")
+    → require(script.Parent:WaitForChild("CameraUtils")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCameraDeprecated
+    → require(script.Parent:WaitForChild("VRBaseCamera")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("VehicleCamera")
+    → require(script.Parent.VehicleCamera:FindFirstChild("VehicleCameraCore")
+    → require(script.Parent.VehicleCamera:FindFirstChild("VehicleCameraConfig")
+    → require(LocalPlayer:WaitForChild("PlayerScripts")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Invisicam
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("BaseOcclusion")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.ClassicCamera
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("BaseCamera")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.BaseCamera
+    → require(CommonUtils:WaitForChild("ConnectionUtil")
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("ZoomController")
+    → require(script.Parent:WaitForChild("CameraToggleStateController")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUI")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.CameraInput
+    → require(CommonUtils:WaitForChild("FlagUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCameraTeleportDetector.spec
+    → require(CorePackages.Packages.Dev.JestGlobals)
+    → require(script.Parent.VRCameraTeleportDetector)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRVehicleCamera
+    → require(script.Parent:WaitForChild("VRBaseCamera")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("VehicleCamera")
+    → require(script.Parent:WaitForChild("VRVehicleCameraDeprecated")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera
+    → require(script.Parent:WaitForChild("BaseCamera")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("ZoomController")
+    → require(script:WaitForChild("VehicleCameraCore")
+    → require(script:WaitForChild("VehicleCameraConfig")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VehicleCamera.VehicleCameraCore
+    → require(script.Parent.Parent.CameraUtils)
+    → require(script.Parent.VehicleCameraConfig)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.Poppercam
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("ZoomController")
+    → require(script.Parent:WaitForChild("BaseOcclusion")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.LegacyCamera
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("BaseCamera")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRBaseCamera
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("ZoomController")
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("BaseCamera")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CameraModule.VRCamera
+    → require(script.Parent:WaitForChild("CameraInput")
+    → require(script.Parent:WaitForChild("CameraUtils")
+    → require(script.Parent:WaitForChild("VRCameraTeleportDetector")
+    → require(CommonUtils:WaitForChild("FlagUtil")
+    → require(script.Parent:WaitForChild("VRBaseCamera")
+    → require(Players.LocalPlayer:WaitForChild("PlayerScripts")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CharacterUtil
+    → require(script.Parent:WaitForChild("ConnectionUtil")
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper.spec
+    → require(CorePackages.Packages.Dev.JestGlobals)
+    → require(CorePackages.Workspace.Packages.TestUtils)
+    → require(script.Parent.CameraWrapper)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.ConnectionUtil.spec
+    → require(CorePackages.Packages.Dev.JestGlobals)
+    → require(CorePackages.Workspace.Packages.AppCommonLib)
+    → require(script.Parent.ConnectionUtil)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.PlayerModule.CommonUtils.CameraWrapper
+    → require(script.Parent.ConnectionUtil)
+
+[StarterPlayer] game.StarterPlayer.StarterPlayerScripts.RbxCharacterSounds
+    → require(script:WaitForChild("AtomicBinding")
+
+[StarterPlayer] game.StarterPlayer.StarterCharacterScripts.Animate
+    → require(game.ReplicatedStorage.Classes.Class_Data)
+
+[PlayerGui] game.Players.Natipol123.PlayerGui.Main.Frames.Chest_RNG.Chests.Template_Scroller.ItemContainer.Hero.HERO_LOADER
+    → require(ReplicatedStorage.Modules.SharedUtils)
+
+[PlayerGui] game.Players.Natipol123.PlayerGui.Purchase Pending.Frame.gif.LocalScript
+    → require(script.GIF)
