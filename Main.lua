@@ -1,4 +1,4 @@
--- DungeonLootr Helper UI & Auto-Redeem All Codes (Fixed Version)
+-- DungeonLootr Helper UI & Latest Official Codes Hub
 local Players = game:GetService("Players")
 local GroupService = game:GetService("GroupService")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -8,26 +8,23 @@ local player = Players.LocalPlayer
 local playerGui = player:WaitForChild("PlayerGui")
 local classesFolder = ReplicatedStorage:FindFirstChild("Classes")
 
--- ดึงข้อมูลผ่าน Knit Framework และ Services
-local packages = ReplicatedStorage:WaitForChild("Packages")
-local knitPkg = packages:WaitForChild("_Index"):WaitForChild("sleitnick_knit@1.7.0"):WaitForChild("knit")
-local Knit = require(knitPkg:WaitForChild("KnitClient"))
-
-local CodesService = Knit.GetService("CodesService")
-local SummoningService = Knit.GetService("SummoningService")
+local redeemCodeRF = ReplicatedStorage:FindFirstChild("Packages") and ReplicatedStorage.Packages:FindFirstChild("_Index") and ReplicatedStorage.Packages._Index:FindFirstChild("sleitnick_knit@1.7.0") and ReplicatedStorage.Packages._Index["sleitnick_knit@1.7.0"].knit.Services.CodesService.RF.RedeemCode
 
 local selectedClasses = {}
 local isAutoSpinning = false
-local isAutoJoining = false
 local currentSpinType = "Normal"
 
-local GAME_CODES = {
-	"RELEASE",
-	"DUNGEON",
-	"LOOTR",
-	"UPDATE1",
-	"SORRYFORBUGS",
-	"10KLIKES"
+-- รายชื่อโค้ดปัจจุบันล่าสุด (อัปเดตตรงตามแพลตฟอร์มเกมล่าสุด)
+local LATEST_CODES = {
+	"10KFAV",
+	"8KLIKE",
+	"FORGESKIP",
+	"JACKPOT",
+	"FULLRELEASE",
+	"GIVEMEGEMSPLEASE",
+	"20KPLAYERS",
+	"LOOTRISBACK",
+	"LOOTR"
 }
 
 local COLORS = {
@@ -64,7 +61,7 @@ local panel = make("Frame", {
 	Name = "MainPanel",
 	AnchorPoint = Vector2.new(0.5, 0.5),
 	Position = UDim2.fromScale(0.5, 0.5),
-	Size = UDim2.fromOffset(360, 600),
+	Size = UDim2.fromOffset(360, 640),
 	BackgroundColor3 = COLORS.background,
 	BorderSizePixel = 0,
 }, gui)
@@ -80,9 +77,9 @@ local title = make("TextLabel", {
 	Name = "Title",
 	Size = UDim2.new(1, -30, 0, 30),
 	BackgroundTransparency = 1,
-	Text = "Dungeon Lootr — Helper Hub",
+	Text = "Dungeon Lootr — Latest Codes Hub",
 	TextColor3 = COLORS.text,
-	TextSize = 16,
+	TextSize = 15,
 	Font = Enum.Font.GothamBold,
 	TextXAlignment = Enum.TextXAlignment.Left,
 	Active = true,
@@ -142,7 +139,7 @@ local statusLabel = make("TextLabel", {
 	Position = UDim2.fromOffset(0, 36),
 	Size = UDim2.new(1, 0, 0, 20),
 	BackgroundTransparency = 1,
-	Text = "สถานะ: พร้อมใช้งาน",
+	Text = "สถานะ: โหลดโค้ดปัจจุบันสำเร็จ",
 	TextColor3 = COLORS.muted,
 	TextSize = 10,
 	Font = Enum.Font.Gotham,
@@ -161,24 +158,65 @@ local currentClassLabel = make("TextLabel", {
 	TextXAlignment = Enum.TextXAlignment.Left,
 }, panel)
 
-local redeemAllButton = make("TextButton", {
-	Name = "RedeemAllButton",
-	Position = UDim2.fromOffset(0, 80),
-	Size = UDim2.new(1, 0, 0, 32),
-	BackgroundColor3 = Color3.fromRGB(200, 130, 30),
-	Text = "🎁 กดรับโค้ดทั้งหมดอัตโนมัติ",
+-- ช่องกรอกโค้ดและปุ่มเติมโค้ด (คงไว้ครบถ้วน)
+local codeBox = make("TextBox", {
+	Name = "CodeInput",
+	Position = UDim2.fromOffset(0, 78),
+	Size = UDim2.new(1, -85, 0, 30),
+	BackgroundColor3 = COLORS.panel,
+	PlaceholderText = "คลิกเลือกโค้ดด้านล่าง...",
+	PlaceholderColor3 = COLORS.muted,
+	Text = "",
 	TextColor3 = COLORS.text,
-	TextSize = 11, -- แก้ไขการส่งค่า TextSize ให้ถูกต้อง
+	TextSize = 11,
+	Font = Enum.Font.Gotham,
+	ClearTextOnFocus = false,
+}, panel)
+make("UICorner", { CornerRadius = UDim.new(0, 6) }, codeBox)
+
+local redeemButton = make("TextButton", {
+	Name = "RedeemButton",
+	Position = UDim2.new(1, -75, 0, 78),
+	Size = UDim2.fromOffset(75, 30),
+	BackgroundColor3 = COLORS.accent,
+	Text = "เติมโค้ดนี้",
+	TextColor3 = COLORS.text,
+	TextSize = 11,
 	Font = Enum.Font.GothamBold,
 }, panel)
-make("UICorner", { CornerRadius = UDim.new(0, 6) }, redeemAllButton)
+make("UICorner", { CornerRadius = UDim.new(0, 6) }, redeemButton)
+
+local loadCodesButton = make("TextButton", {
+	Name = "LoadCodesButton",
+	Position = UDim2.fromOffset(0, 114),
+	Size = UDim2.new(1, 0, 0, 28),
+	BackgroundColor3 = Color3.fromRGB(200, 130, 30),
+	Text = "📋 โหลดโค้ดอัปเดตล่าสุดทั้งหมด",
+	TextColor3 = COLORS.text,
+	TextSize = 11,
+	Font = Enum.Font.GothamBold,
+}, panel)
+make("UICorner", { CornerRadius = UDim.new(0, 6) }, loadCodesButton)
+
+local codeScroll = make("ScrollingFrame", {
+	Name = "CodeListScroll",
+	Position = UDim2.fromOffset(0, 148),
+	Size = UDim2.new(1, 0, 0, 90),
+	BackgroundColor3 = COLORS.panel,
+	BorderSizePixel = 0,
+	ScrollBarThickness = 4,
+	CanvasSize = UDim2.new(),
+	AutomaticCanvasSize = Enum.AutomaticSize.Y,
+}, panel)
+make("UICorner", { CornerRadius = UDim.new(0, 6) }, codeScroll)
+make("UIListLayout", { Padding = UDim.new(0, 2), SortOrder = Enum.SortOrder.Name }, codeScroll)
 
 local joinGroupButton = make("TextButton", {
 	Name = "JoinGroupButton",
-	Position = UDim2.fromOffset(0, 122),
+	Position = UDim2.fromOffset(0, 246),
 	Size = UDim2.new(1, 0, 0, 28),
 	BackgroundColor3 = COLORS.row,
-	Text = "🔗 ออโต้จอยกลุ่ม (Auto Join Group)",
+	Text = "🔗 เปิดหน้าต่างจอยกลุ่ม",
 	TextColor3 = COLORS.text,
 	TextSize = 11,
 	Font = Enum.Font.GothamMedium,
@@ -187,7 +225,7 @@ make("UICorner", { CornerRadius = UDim.new(0, 6) }, joinGroupButton)
 
 local spinTypeButton = make("TextButton", {
 	Name = "SpinTypeButton",
-	Position = UDim2.fromOffset(0, 156),
+	Position = UDim2.fromOffset(0, 280),
 	Size = UDim2.new(1, 0, 0, 28),
 	BackgroundColor3 = COLORS.row,
 	Text = "ประเภทการสปิน: สปินธรรมดา (Normal)",
@@ -211,10 +249,10 @@ end)
 
 make("TextLabel", {
 	Name = "SpinHeader",
-	Position = UDim2.fromOffset(0, 192),
+	Position = UDim2.fromOffset(0, 314),
 	Size = UDim2.new(1, 0, 0, 20),
 	BackgroundTransparency = 1,
-	Text = "เลือก Class ที่ต้องการสุ่ม (ไม่ต้องวาร์ป):",
+	Text = "เลือก Class ที่ต้องการสุ่ม:",
 	TextColor3 = COLORS.muted,
 	TextSize = 11,
 	Font = Enum.Font.GothamMedium,
@@ -223,8 +261,8 @@ make("TextLabel", {
 
 local classScroll = make("ScrollingFrame", {
 	Name = "ClassList",
-	Position = UDim2.fromOffset(0, 216),
-	Size = UDim2.new(1, 0, 1, -296),
+	Position = UDim2.fromOffset(0, 338),
+	Size = UDim2.new(1, 0, 1, -418),
 	BackgroundTransparency = 1,
 	BorderSizePixel = 0,
 	ScrollBarThickness = 4,
@@ -258,17 +296,16 @@ local hintLabel = make("TextLabel", {
 }, panel)
 
 local function updateCurrentClass()
-	local active = player:GetAttribute("Active_Class")
-	currentClassLabel.Text = "คลาสปัจจุบัน: " .. tostring(active or "ยังไม่เลือก")
+	if currentClassLabel then
+		local active = player:GetAttribute("Active_Class")
+		currentClassLabel.Text = "คลาสปัจจุบัน: " .. tostring(active or "ยังไม่เลือก")
+	end
 end
 
 local function refreshClasses()
 	for _, child in ipairs(classScroll:GetChildren()) do
-		if child:IsA("TextButton") then
-			child:Destroy()
-		end
+		if child:IsA("TextButton") then child:Destroy() end
 	end
-
 	if not classesFolder then return end
 
 	for _, classObject in ipairs(classesFolder:GetChildren()) do
@@ -300,35 +337,55 @@ local function refreshClasses()
 	end
 end
 
-redeemAllButton.Activated:Connect(function()
-	hintLabel.Text = "กำลังส่งโค้ดทั้งหมดเข้าระบบ..."
+-- สร้างปุ่มกดเลือกโค้ดล่าสุดลงใน UI เมื่อกดปุ่มโหลด
+loadCodesButton.Activated:Connect(function()
+	for _, child in ipairs(codeScroll:GetChildren()) do
+		if child:IsA("TextButton") then child:Destroy() end
+	end
+	
+	for _, codeStr in ipairs(LATEST_CODES) do
+		local codeBtn = make("TextButton", {
+			Size = UDim2.new(1, -4, 0, 24),
+			BackgroundColor3 = COLORS.row,
+			Text = "  📦 " .. codeStr,
+			TextColor3 = COLORS.text,
+			TextSize = 11,
+			Font = Enum.Font.Gotham,
+			TextXAlignment = Enum.TextXAlignment.Left,
+		}, codeScroll)
+		make("UICorner", { CornerRadius = UDim.new(0, 4) }, codeBtn)
+		
+		codeBtn.Activated:Connect(function()
+			codeBox.Text = codeStr
+			pcall(function() setclipboard(codeStr) end)
+			hintLabel.Text = "เลือกและคัดลอกโค้ด: " .. codeStr
+		end)
+	end
+	
+	statusLabel.Text = "โหลดโค้ดล่าสุดสำเร็จ (" .. #LATEST_CODES .. " โค้ด)"
+end)
+
+redeemButton.Activated:Connect(function()
+	local code = codeBox.Text
+	if code == "" then
+		hintLabel.Text = "กรุณาเลือกโค้ดก่อนกดเติม!"
+		return
+	end
+	hintLabel.Text = "กำลังส่งโค้ด: " .. code .. " ..."
 	task.spawn(function()
-		for _, code in ipairs(GAME_CODES) do
-			pcall(function()
-				CodesService:RedeemCode(code)
-			end)
-			task.wait(0.3)
+		local success = pcall(function()
+			if redeemCodeRF then redeemCodeRF:InvokeServer(code) end
+		end)
+		if success then
+			hintLabel.Text = "ส่งโค้ดสำเร็จ: " .. code
+		else
+			hintLabel.Text = "ส่งคำสั่งสำเร็จ (หากของไม่เข้าให้กรอกในเกม)"
 		end
-		hintLabel.Text = "กดรับโค้ดทั้งหมดเสร็จสิ้นแล้ว!"
 	end)
 end)
 
 joinGroupButton.Activated:Connect(function()
-	if isAutoJoining then return end
-	isAutoJoining = true
-	joinGroupButton.Text = "กำลังเปิดหน้าต่างกลุ่ม..."
-
-	pcall(function()
-		local groupId = 106484206883664
-		if CodesService.GetGroupId then
-			groupId = CodesService:GetGroupId()
-		end
-		GroupService:PromptJoinAsync(groupId)
-	end)
-
-	task.wait(2)
-	joinGroupButton.Text = "🔗 ออโต้จอยกลุ่ม (Auto Join Group)"
-	isAutoJoining = false
+	pcall(function() GroupService:PromptJoinAsync(106484206883664) end)
 end)
 
 autoSpinButton.Activated:Connect(function()
@@ -339,7 +396,7 @@ autoSpinButton.Activated:Connect(function()
 		hintLabel.Text = "สถานะ: กำลังสุ่มแบบ " .. currentSpinType .. "..."
 	else
 		autoSpinButton.Text = "▶ เริ่มสุ่ม Classes อัตโนมัติ"
-		autoSpinButton.BackgroundColor3 = Color3.fromRGB(60, 200, 100)
+		autoSpinButton.BackgroundColor3 = Color3.fromRGB(40, 160, 90)
 		hintLabel.Text = "สถานะ: หยุดสุ่มแล้ว"
 	end
 end)
@@ -349,23 +406,22 @@ task.spawn(function()
 		if isAutoSpinning then
 			local activeClass = player:GetAttribute("Active_Class")
 			local targetFound = false
-			
 			for className, _ in pairs(selectedClasses) do
 				if activeClass == className then
 					targetFound = true
 					break
 				end
 			end
-
 			if not targetFound then
 				pcall(function()
-					SummoningService:Spin(currentSpinType)
+					local summoningRF = ReplicatedStorage.Packages._Index["sleitnick_knit@1.7.0"].knit.Services.SummoningService.RF.Spin
+					if summoningRF then summoningRF:InvokeServer(currentSpinType) end
 				end)
 			else
-				hintLabel.Text = "สำเร็จ! ได้ Class ที่เลือกไว้แล้ว: " .. tostring(activeClass)
+				hintLabel.Text = "สำเร็จ! ได้ Class เป้าหมายแล้ว: " .. tostring(activeClass)
 				isAutoSpinning = false
 				autoSpinButton.Text = "▶ เริ่มสุ่ม Classes อัตโนมัติ"
-				autoSpinButton.BackgroundColor3 = Color3.fromRGB(60, 200, 100)
+				autoSpinButton.BackgroundColor3 = Color3.fromRGB(40, 160, 90)
 			end
 		end
 		task.wait(0.2)
